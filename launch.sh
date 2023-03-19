@@ -14,7 +14,7 @@ JAVA_PARAMETERS=''
 
 # these you can edit
 MIN_RAM='2048M'
-MAX_RAM='2048M'
+MAX_RAM='16G'
 
 # DO NOT EDIT ANYTHING PAST THIS LINE
 LAUNCHPARAMS="-server -Xms$MIN_RAM -Xmx$MAX_RAM $JAVA_PARAMETERS -Dlog4j.configurationFile=log4j2_112-116.xml -jar $FORGEJAR nogui"
