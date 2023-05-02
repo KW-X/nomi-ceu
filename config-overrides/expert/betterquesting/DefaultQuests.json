@@ -4,8 +4,7 @@
   "questDatabase:9": {
     "0:10": {
       "preRequisites:11": [
-        26,
-        490
+        26
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -530,8 +529,7 @@
     "7:10": {
       "preRequisites:11": [
         37,
-        66,
-        670
+        66
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -645,8 +643,11 @@
       }
     },
     "9:10": {
+      "preRequisiteTypes:7": [
+        2
+      ],
       "preRequisites:11": [
-        805
+        3
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -741,7 +742,6 @@
     "11:10": {
       "preRequisites:11": [
         66,
-        670,
         909
       ],
       "properties:10": {
@@ -1592,7 +1592,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "You\u0027ll need §6Obsidian§r to make §6Dark Steel§r. Most of the tools you can make cannot mine Obsidian, but you do have a few potential options for ones that will work. The options you\u0027re most likely to have access to at this point are:\n\n1) A §aDiamond Pickaxe§r or §aDiamond Mining Hammer§r.\n\n2) A §aPlatinum Mining Hammer§r (not pickaxe though).",
+          "desc:8": "You\u0027ll need §6Obsidian§r to make §6Dark Steel§r. Most of the tools you can make cannot mine Obsidian, but you do have a few potential options for ones that will work. The options you\u0027re most likely to have access to at this point are:\n\n1) A §aDiamond Pickaxe§r or §aDiamond Mining Hammer§r.\n\n2) A §aPlatinum Mining Hammer§r (not pickaxe though).\n\nLater. you can use a §3Rock Breaker§r at voltage §aHV§r or higher to make §6Obsidian§r without spending §6Lava§r!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1779,9 +1779,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 6,
+            "Damage:2": 32003,
             "OreDict:8": "",
-            "id:8": "enderio:item_alloy_ingot"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
@@ -1811,7 +1811,7 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 12,
+              "Count:3": 1,
               "Damage:2": 32003,
               "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
@@ -1940,7 +1940,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "An §bEnder IO§r alloy.\n\nMade from §6Pulsating Dust§r and an §6Iron Ingot§r.\n\nIf you can\u0027t find one otherwise, §6Ender Pearls§r can be crafted using Pulsating Dust and a §6Diamond§r in an §3Alloy Smelter§r.",
+          "desc:8": "A mysterious alloy, made from §6Pulsating Dust§r and §6Iron§r.\n\nIf you can\u0027t find one otherwise, §6Ender Pearls§r can be crafted using Pulsating Dust and a §6Diamond§r in an §3Alloy Smelter§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2000,13 +2000,13 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "An §bEnderIO§r alloy, made from §6Silicon Dust§r and a §6Steel Ingot§r.\n\nThis material is frequently used in electronics and digital equipment.",
+          "desc:8": "An refined type of steel, made from §6Silicon Dust§r and §6Steel§r.\n\nThis material is frequently used in electronics and digital equipment.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 32015,
             "OreDict:8": "",
-            "id:8": "enderio:item_alloy_ingot"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
@@ -2224,13 +2224,13 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "An §bEnderIO§r alloy, made from §2mixing§r §22 Gold Dust, 1 Redstone Dust, and 1 Glowstone Dust§r §2and putting it §rin your new §3Electric Blast Furnace§r.\n\nThrow §2the prepared dust into the input bus§r and in twenty seconds your §6Energetic Alloy Ingot§r will be in the output bus.\n\n§2In EV Age, you can build an Alloy Blast Smelter which doubles the yield.",
+          "desc:8": "This alloy is made from §2mixing§r §22 Gold Dust, 1 Redstone Dust, and 1 Glowstone Dust§r §2and putting it §rin your new §3Electric Blast Furnace§r.\n\nThrow §2the prepared dust into the input bus§r and in twenty seconds your §6Energetic Alloy Ingot§r will be in the output bus.\n\n§2In EV Age, you can build an Alloy Blast Smelter which doubles the yield.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 1,
+            "Damage:2": 32012,
             "OreDict:8": "",
-            "id:8": "enderio:item_alloy_ingot"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
@@ -2277,13 +2277,13 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "An EnderIO alloy.\n\n§2In EV Age, you can build an Alloy Blast Smelter which doubles the yield.",
+          "desc:8": "Another alloy.\n\n§2In EV Age, you can build an Alloy Blast Smelter which doubles the yield.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 2,
+            "Damage:2": 32013,
             "OreDict:8": "",
-            "id:8": "enderio:item_alloy_ingot"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
@@ -2424,8 +2424,7 @@
       "preRequisites:11": [
         24,
         40,
-        530,
-        909
+        530
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4743,12 +4742,13 @@
     "79:10": {
       "preRequisites:11": [
         147,
-        259
+        259,
+        837
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Cuts things up.\n\nThe §3Cutting Machine§r is able to cut wafers, rods, wood, and various other things for you, making it a versatile crafting tool. Cutting blocks into 9 plates is much faster than using a §2Bending Machine §rto make them one at a time.\n\nThis quest accepts the LV or MV version. The LV version can cut §6Silicon Boules§r for easier §6Diodes§r, and can also cut plates and other components. The MV version is required for cutting §6Wafers§r.\n\nThe blade will require you to make §2Cobalt Brass§r (for LV) or §2Vanadiumsteel§r (for MV).\n\nCutting Machines work with plain §9Water§r for all recipes. You can also use §9Distilled Water§r which speeds up the processing somewhat, or §9Lubricant§r that speeds it up greatly (and uses very little per operation). These might be a little tricky to make right now, but are very worthwhile upgrades in the future.\n\nYou might consider waiting until you have §2Integrated Circuits§r before progressing too far down the path of MV machines, since these circuits are much easier to make than §2Electronic Circuits§r.",
+          "desc:8": "Cuts things up.\n\nThe §3Cutting Machine§r is able to cut wafers, rods, wood, and various other things for you, making it a versatile crafting tool. Cutting blocks into 9 plates may be faster than using a §2Bending Machine §rto make them one at a time.\n\nThe MV version is required for cutting §6Silicon Boules§r for easier §6Diodes§r once you get §9Polyethylene (PE)§r, and for cutting §6Wafers§r into usable components. \nThe blade will require you to make §2Vanadiumsteel§r.\n\nCutting Machines work with plain §9Water§r for all recipes. You can also use §9Distilled Water§r which speeds up the processing somewhat, or §9Lubricant§r that speeds it up greatly (and uses very little per operation). These might be a little tricky to make right now, but are very worthwhile upgrades in the future.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4768,7 +4768,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -4776,23 +4776,6 @@
       "rewards:9": {},
       "tasks:9": {
         "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 245,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
@@ -5567,7 +5550,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§2Sulfuric Acid is mainly produced in a 3-step process:§r\n-§6 Sulfur§o§r added to §9Oxygen§r to produce §9Sulfur Dioxide§r. §9SO₂§r also can come from treating certain §6Sulfur-containing Dusts§r with §9Oxygen§r in the EBF, or by processing §eNether Air§r.\n- §9Sulfur Dioxide§r added to more §9Oxygen§r, with §cVanadium Pentoxide§r catalyst, to produce §9Sulfur Trioxide§r.\n- §9Sulfur Trioxide§r added to §9Water§r, to produce §eSulfuric Acid§r.\n\nThe shortcut Sulfur + Water reaction is locked behind the Large Chemical Reactor, unlocked at EV.\n\n§rYou\u0027ll need huge amounts of this for a whole range of chemical reactions, as it is a very common ingredient.\n\nSulfur can be electrolyzed from many things.",
+          "desc:8": "§2Sulfuric Acid is mainly produced in a 3-step process:§r\n-§6 Sulfur§o§r added to §9Oxygen§r to produce §9Sulfur Dioxide§r. §9SO₂§r also can come from treating certain §6Sulfur-containing Dusts§r with §9Oxygen§r in the EBF, or by processing §eNether Air§r.\n- §9Sulfur Dioxide§r added to more §9Oxygen§r, with §cVanadium Pentoxide§r catalyst, to produce §9Sulfur Trioxide§r.\n- §9Sulfur Trioxide§r added to §9Water§r, to produce §eSulfuric Acid§r.\n\nThe shortcut Sulfur + Water reaction is locked behind the Large Chemical Reactor, unlocked at EV.\n\nYou can also get Sulfuric Acid by adding §9Oxygen§r to §9Hydrogen Sulfide§r, which can be obtained via Petroleum, or by combining §9Hydrogen§r and §6Sulfur§r.\n\n§rYou\u0027ll need huge amounts of this for a whole range of chemical reactions, as it is a very common ingredient.\n\nSulfur can be electrolyzed from many things.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5788,7 +5771,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6Stainless Steel§r will be your primary material for HV, in the same way that §6Aluminium§r was for MV and §6Wrought Iron§r was for LV.\n\n§6Manganese§r comes from electrolyzing §6Tantalite§r, §6Pyrolusite§r, or §6Spessartine Dusts§r. You already have §6Chrome§r.\n\nMix up a bunch of the dust in a §3Mixer§r and begin processing it through the §3Electric Blast Furnace§r. This may be a good time to reevaluate your power generation and storage infrastructure.",
+          "desc:8": "§6Stainless Steel§r will be your primary material for HV, in the same way that §6Aluminium§r was for MV and §6Wrought Iron§r was for LV.\n\n§6Manganese§r comes from electrolyzing §6Tantalite§r, §6Pyrolusite§r, or §6Spessartine Dusts§r. You already have §6Chrome§r.\n\nMix up a bunch of the dust in a MV §3Mixer§r and begin processing it through the §3Electric Blast Furnace§r. This may be a good time to reevaluate your power generation and storage infrastructure.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7323,7 +7306,6 @@
     "126:10": {
       "preRequisites:11": [
         95,
-        130,
         830
       ],
       "properties:10": {
@@ -8803,12 +8785,13 @@
     },
     "154:10": {
       "preRequisites:11": [
-        132
+        132,
+        253
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "It\u0027s time to make a §3Distillation Tower§r, which is the gatekeeper for more advanced plastics like §6Epoxy§r and doing petrochemistry.\n\nThe Distillation Tower is a highly flexible multiblock structure, able to be anywhere from §62 blocks high to up to 13 high§r (12 fluid outputs). The way that it works is that each level of the tower after the first will output an additional fluid from the recipe. §cAny output fluids in excess of available buses are voided§r. \n\nWhat you need the Distillation Tower for initially is to break down §9Biomass§r into §9Ethanol§r and §9Water§r. This recipe only has two outputs, so a §ethree-block-high Distillation Tower§r is just fine (the quest materials are for such a tower; if you want to build it bigger, you will need §ean additional 7 casings and 1 fluid output per floor§r).\n\nAny recipe with more than two fluids (like §9Oil§r) will need a larger tower. Make sure to increase the height of your tower to accommodate all of the outputs you want to keep. Also check the voltage requirements of the recipes, as many Distillation Tower recipes need higher voltages than MV. §eYou can swap out your Energy Input for a higher tier one when that time comes§r.",
+          "desc:8": "It\u0027s finally time to make a §3Distillation Tower§r, which is the gatekeeper for more advanced plastics like §6Epoxy§r and doing petrochemistry.\n\nThe Distillation Tower is a highly flexible multiblock structure, able to be anywhere from §62 blocks high to up to 13 high§r (12 fluid outputs). The way that it works is that each level of the tower after the first will output an additional fluid from the recipe. §cAny output fluids in excess of available buses are voided§r. \n\nWhat you need the Distillation Tower for initially is to break down §9Oil§r and §9Fermented Biomass§r into useful resources.§9 Oil§r distillation, with its four outputs, will require a §efive-block-high Distillation Tower§r (the quest materials are for such a tower; if you want to build it bigger, you will need §ean additional 7 casings and 1 fluid output per floor§r).\n\nAny recipe with more than four output fluids (like §9Fermented Biomass§r) will need a larger tower. Make sure to increase the height of your tower to accommodate all of the outputs you want to keep. Also check the voltage requirements of the recipes, as many Distillation Tower recipes need higher voltages than MV. §eYou can swap out your Energy Input for a higher tier one when that time comes§r. Also, any recipe that has an item output will need an §6Output Bus§r, anywhere on the bottom layer.\n\nThe tower we\u0027ll be building at first is 3x3x5 (LxWxH), with a hollow center. The §6Fluid Input Hatch§r §2can go anywhere on the bottom layer.§r. The §6controller§r goes in the middle of an outer edge of the bottom layer. The § §6Energy Input Hatch§r can go wherever you can fit it on the bottom layer. The rest of the 3x3 must be filled with §6Clean Stainless Steel Casings§r.§2 You also need a Maintenance Hatch, which can go anywhere on the structure.§r Each level above that is a ring of 7 Clean Stainless Steel Casings, one §6Fluid Output§r and nothing in the center, except for the topmost layer which needs an eighth casing to fill in the center, capping off the top. \n\nFor distilling fluids which only have one useful output, like §9Biomass§r, it is recommended to use single-block Distilleries, due to their energy efficiency and generally lower costs.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8820,7 +8803,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Distillation Tower",
+          "name:8": "§2Distillation Tower",
           "partysinglereward:1": 0,
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
@@ -8862,19 +8845,13 @@
               "id:8": "gregtech:machine"
             },
             "3:10": {
-              "Count:3": 1,
-              "Damage:2": 1166,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            },
-            "4:10": {
-              "Count:3": 2,
+              "Count:3": 4,
               "Damage:2": 1196,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             },
-            "5:10": {
-              "Count:3": 20,
+            "4:10": {
+              "Count:3": 34,
               "Damage:2": 5,
               "OreDict:8": "",
               "id:8": "gregtech:metal_casing"
@@ -11076,7 +11053,8 @@
       "preRequisites:11": [
         258,
         335,
-        852
+        852,
+        928
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -13479,7 +13457,8 @@
       "preRequisites:11": [
         241,
         330,
-        411
+        411,
+        258
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -13532,13 +13511,12 @@
     },
     "239:10": {
       "preRequisites:11": [
-        238,
-        256
+        238
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6Chaos Shards§r are an endgame component for §bDraconic Evolution§r.\n\nThey are the base material for Chaotic Tier materials and come exclusively from Tier Eight Micro Miners.",
+          "desc:8": "§6Chaos Shards§r are an endgame component for §bDraconic Evolution§r.\n\nThey are the base material for Chaotic Tier materials and come exclusively from Tier Eight Micro Miners. You\u0027ll need the Tier Seven Micro Miner for the §6Lair of the Chaos Dragon Data§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14326,13 +14304,12 @@
     },
     "253:10": {
       "preRequisites:11": [
-        251,
         889
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6Iridium§r is an advanced material used for Micro Miners, and for alloying with §6Osmium§r into §6Osmiridium§r.\n\n§2Osmiridium 80/20 Ore and Iridosmine 20/80 Ore, the two ore sources of Iridium§r, are available renewably from the Tier Six micro miner, and semi-renewably from the Tier Five micro miner.",
+          "desc:8": "§6Iridium§r is an advanced material used for Micro Miners, and for alloying with §6Osmium§r into §6Osmiridium§r.\n\n§2Osmiridium 80/20 Ore and Iridosmine 20/80 Ore, the two ore sources of Iridium§r, and are available renewably from the Tier Six micro miner, and semi-renewably from the Tier Five micro miner.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14346,7 +14323,7 @@
           "lockedprogress:1": 1,
           "name:8": "Iridium",
           "partysinglereward:1": 0,
-          "questlogic:8": "OR",
+          "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -18686,7 +18663,6 @@
     },
     "332:10": {
       "preRequisites:11": [
-        242,
         842,
         907
       ],
@@ -18911,9 +18887,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 32001,
             "OreDict:8": "",
-            "id:8": "draconicevolution:draconium_dust"
+            "id:8": "gregtech:meta_dust"
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
@@ -19605,7 +19581,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The full complexity of §bNuclearCraft§r is far too much for the scope of this quest guide, so §eyou\u0027re encouraged to watch a tutorial or read a guide online§r. \n\nFor the purposes of this particular quest, you\u0027ll be building a breeder reactor to make §6Plutonium§r, and other nuclear elements. While this reactor may seem very expensive, it will be worth it, and you will probably expand it soon. This reactor is capable of running any Low-Enriched fuel, such as TBU and LEU-235. This is a basic reactor and can be expanded, following the same pattern, to run faster. Alternatively, reactors can be designed to produce a decent amount of power for the mid game of the pack.\n\nFirst, set up your 150 §6Fission Reactor Casings§r to encase a 5x5x5 cube shape of empty air. Any of these reactor casings can be changed to §6Transparent Fission Reactor Casings§r. The Casings should only cover the faces of the interior cube, not the edges or corners. You should have exactly the right number of Casings to encase a 5x5x5 space.\n\nNext, create a hole so you can get inside the cube. Place the §6Reactor Cells§r in an alternating pattern, with the reactor cells at the corners, and spaces between each one. Alternate between each row, creating a grid pattern. Fill in the §6Cryotheum Coolers§r between, in the empty holes. Do this for every layer, alternating between §6Cryotheum Coolers§r on the corners and §6Reactor Cells§r on the corners. You should have the perfect amount of §6Reactor Cells§r and §6Cryotheum Coolers§r for this, and the third and final layers should be the same as the first one. The reactor will now be complete when you reseal it up with the Casings you removed to access the interior.\n\nFinally, place the §3Fission Reactor Controller§r along any edge or corner of the reactor. Opening the Reactor Controller GUI should let you know that the structure was properly formed; if not, go back and check what you did wrong.\n\nThe lever is placed on the reactor, as a redstone signal is required for it to start working. §cReactors can overheat and melt if the temperature exceeds its ability to cool.§r You can make a safety loop on the controller (instead of the lever) to automatically shut off the reactor when it starts getting hot using a §aRedstone Conduit§r, a §aRedstone Sensor Filter§r (on the input channel), and a §aRedstone NOT Filter§r (on the output channel). Make sure input and output are on the same channel color.",
+          "desc:8": "The full complexity of §bNuclearCraft§r is far too much for the scope of this quest guide, so §eyou\u0027re encouraged to watch a tutorial or read a guide online§r. \n\nFor the purposes of this particular quest, you\u0027ll be building a breeder reactor to make §6Plutonium§r, and other nuclear elements. While this reactor may seem very expensive, it will be worth it, and you will probably expand it soon. \n\nThis reactor is capable of running any Low-Enriched fuel, such as TBU and LEU-235. This is a basic reactor and can be expanded, following the same pattern, to run faster. Alternatively, reactors can be designed to produce a decent amount of power for the mid game of the pack.\n\nFirst, set up your 150 §6Fission Reactor Casings§r to encase a 5x5x5 cube shape of empty air. Any of these reactor casings can be changed to §6Transparent Fission Reactor Casings§r. The Casings should only cover the faces of the interior cube, not the edges or corners. You should have exactly the right number of Casings to encase a 5x5x5 space.\n\nNext, create a hole so you can get inside the cube. Place the §6Reactor Cells§r in an alternating pattern, with the reactor cells at the corners, and spaces between each one. Alternate between each row, creating a grid pattern. Fill in the §6Cryotheum Coolers§r between, in the empty holes. Do this for every layer, alternating between §6Cryotheum Coolers§r on the corners and §6Reactor Cells§r on the corners. You should have the perfect amount of §6Reactor Cells§r and §6Cryotheum Coolers§r for this, and the third and final layers should be the same as the first one. The reactor will now be complete when you reseal it up with the Casings you removed to access the interior.\n\nFinally, place the §3Fission Reactor Controller§r along any edge or corner of the reactor. Opening the Reactor Controller GUI should let you know that the structure was properly formed; if not, go back and check what you did wrong.\n\nThe lever is placed on the reactor, as a redstone signal is required for it to start working. §cReactors can overheat and melt if the temperature exceeds its ability to cool.§r You can make a safety loop on the controller (instead of the lever) to automatically shut off the reactor when it starts getting hot using a §aRedstone Conduit§r, a §aRedstone Sensor Filter§r (on the input channel), and a §aRedstone NOT Filter§r (on the output channel). Make sure input and output are on the same channel color.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20704,9 +20680,9 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 1,
-          "name:8": "Coke Oven",
+          "name:8": "§2Coke Oven",
           "partysinglereward:1": 0,
-          "questlogic:8": "OR",
+          "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -21818,8 +21794,11 @@
       "tasks:9": {}
     },
     "393:10": {
+      "preRequisiteTypes:7": [
+        2
+      ],
       "preRequisites:11": [
-        805
+        3
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -22477,8 +22456,11 @@
       }
     },
     "405:10": {
+      "preRequisiteTypes:7": [
+        2
+      ],
       "preRequisites:11": [
-        805
+        3
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -26401,7 +26383,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§aStorage Drawer Controllers§r are the central hub of any good storage system. They can pull from any drawers they are connected to (via other drawers, or drawer trims) within a 12 block cubic radius. This leads to a potential 25x25x25 area to connect drawers, centered on the controller.\n\nThe appearance can be customized by crafting the controller into §aFramed Controller§r and putting it into a §aFraming Table§r.\n\n§aController Slaves§r do not extend the range, but rather act as another access point to that controller - allowing you to push/pull from any of the drawers within range of the local Drawer Controller.\n\nConnecting an §6ME Storage Bus§f to a controller exposes all of the drawers to §bApplied Energistics§f. Particularly large networks can be laggy though, so keep your drawer networks a manageable size.\n",
+          "desc:8": "§aStorage Drawer Controllers§r are the central hub of any good storage system. They can pull from any drawers they are connected to (via other drawers, or drawer trims) within a 12 block cubic radius. This leads to a potential 25x25x25 area to connect drawers, centered on the controller.\n\nThe appearance can be customized by crafting the controller into §aFramed Controller§r and putting it into a §aFraming Table§r.\n\n§aController Slaves§r do not extend the range, but rather act as another access point to that controller - allowing you to push/pull from any of the drawers within range of the local Drawer Controller.\n\nConnecting an §6ME Storage Bus§f to a controller exposes all of the drawers to §bApplied Energistics§f. Particularly large networks can be laggy though, so keep your drawer networks a manageable size.\n\nAnother cool thing about controllers is that when §bStorage Drawers§r §6Keys§r are used on a drawer controller, they affect the whole system!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26454,7 +26436,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§bStorage Drawers§f provide a huge amount of storage for a single item type. Use them for things you have a lot of, such as stone, dirt and ores.\n\nIf the default appearances aren\u0027t your style, the §3Framing Table§f is useful for making custom drawers out of §6Framed Drawers§f and up to three additional items which define how the resulting drawer will look.\n\nIn addition, the §aHand Framing Tool§r has been implemented, allowing you to reframe your drawers in world, and convert default drawers into Framed Drawers§r in-world. See the §eJEI Information Page§r of the Hand Framing Tool§r for more information.",
+          "desc:8": "§oThis quest completes with any wood-type drawer, or a Framed Drawer and a Framing Table.\n\n§bStorage Drawers§f provide a huge amount of storage for a single item type. Use them for things you have a lot of, such as stone, dirt and ores.\n\nIf the wood-type appearances aren\u0027t your style, the §3Framing Table§f is useful for making custom drawers out of §6Framed Drawers§f, and up to three additional items which define how the resulting drawer will look. Please note that due to a glitch, items can\u0027t be put into non-framed §6Framed Drawers§r.\n\nIn addition, the §aHand Framing Tool§r has been implemented, allowing you to decorate your framed drawers in world, and convert default drawers into Framed Drawers§r in-world, with the cost of some sticks. \n\nIn fact, once you consume the blocks you would like to decorate your framed drawers into, no more of those blocks will be consumed, decorating your drawers for free! \n\nSee the uses of the framing tool in §eJEI§r and the §eJEI Information Page§r of the Hand Framing Tool§r for more information.\n\nFurthermore, you can do special stuff with your drawers, with §6Keys§r! Search §e@StorageDrawers Keys§r in §bJEI§r to see them! You can do things from \u0027locking\u0027 the drawer, meaning only that item can enter the drawer, show how many items are in the drawer, and even remove the display of items! \n\n§cPlease note that excessive use of the Quantify Key may lead to lag.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26492,14 +26474,34 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 0,
+              "OreDict:8": "drawerBasic",
+              "id:8": "storagedrawers:basicdrawers",
+              "tag:10": {
+                "material:8": "oak"
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "storagedrawers:framingtable"
+              "id:8": "storagedrawers:customdrawers"
             },
             "1:10": {
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "storagedrawers:customdrawers"
+              "id:8": "storagedrawers:framingtable"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -27061,7 +27063,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "You\u0027ll need §9Chlorine§r at this point. It is an important ingredient in many chemical processes, and you can currently get it from electrolyzing either §6Salt§r or §6Rock Salt§r.\n\n§2Later, you can use Fluid Rigs or break down Ghast Tears to obtain Salt Water, and electrolyze it to Chlorine.",
+          "desc:8": "You\u0027ll need §9Chlorine§r at this point. It is an important ingredient in many chemical processes, and you can currently get it from electrolyzing either §6Salt§r or §6Rock Salt§r.\n\n§2Later, you can use Fluid Rigs or break down Ghast Tears to obtain Salt Water, and electrolyze it to Chlorine. \n\n§rUsing Fluid Rigs is the best way to obtain mass amounts of Chlorine.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -27168,13 +27170,13 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§bEnderIO§r and §bThermal§r alloys are a bit more expensive than the normal wires, but they come with the huge advantage of being §e§2superconductors§r. Lossy cables like §6Tin§r and §6Copper§r will bleed out energy for every block they travel, but §2superconductors§r do not.\n\nThe §2cheap superconductors§r for each tier are:\n\nLV - Conductive Iron\nMV - Energetic Alloy\nHV - Vibrant Alloy\nEV - End Steel\nIV - Lumium \nLuV   - Signalum \nZPM - Enderium \nUV     - Draconium \nMAX - §2Draconic Superconductor§r, Omnium\n\n§2There are an additional set of superconductors, one for each tier, which are the CEu default superconductors. Their advantage is their higher amperage rating, reaching the hundreds of amps for higher tier 16x wires. They are also used in crafting Field Generators.§,§r\n\nMV and higher cables are made in an §3Assembling Machine§r. They\u0027re made with liquid §9Rubber§r and §6Wires§r, plus a reusable §6Programmed Circuit§r that tells it what thickness of wire to make.\n\nYou can use Wires, and for these materials they\u0027ll conduct just as well as if they were covered. §2Superconductor wires also won\u0027t kill you when touched now. In fact, you have to use Wires for Superconductors, because they don\u0027t even have cables!",
+          "desc:8": "§eSuperconductor wires also won\u0027t kill you when touched now. In fact, you have to use Wires for Superconductors, because they don\u0027t even have cables!\n\n§bEnderIO§r and §bThermal§r alloys are a bit more expensive than the normal wires, but they come with the huge advantage of being §2superconductors§r. Lossy cables like §6Tin§r and §6Copper§r will bleed out energy for every block they travel, but §2superconductors§r do not.\n\nThe §2cheap superconductors§r for each tier are:\n\nLV - Conductive Iron\nMV - Energetic Alloy\nHV - Vibrant Alloy\nEV - End Steel\nIV - Lumium \nLuV - Signalum \nZPM - Enderium \nUV - Draconium \nMAX - §2Draconic Superconductor§r, Omnium\n\n§2There are an additional set of superconductors, one for each tier, which are the CEu default superconductors. Their advantage is their higher amperage rating, reaching the hundreds of amps for higher tier 16x wires. They are also used in crafting Field Generators. They are:\n\nLV - Manganese Phosphide\nMV - Magnesium Diboride\nHV - Mercury Barium Calcium Cuprate\nEV - Uranium Triplatinum\nIV - Samarium Iron Arsenic Oxide\nLuV - Indium Tin Barium Titanium Cuprate\nZPM - Uranium Rhodium Dinaquadide\nUV - Enriched Naquadah Trinium Europium Duranide\nUHV - Ruthenium Trinium Americium Neutronate§r\n§r\nMV and higher cables are made in an §3Assembling Machine§r, with liquid §9Rubber§r and §6Wires§r. §2Keep in mind that you can\u0027t combine cables into thicker cables, so you have to make the thickness of cables that you will use.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 32012,
             "OreDict:8": "",
-            "id:8": "gregtech:wire_single"
+            "id:8": "gregtech:wire_octal"
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
@@ -27401,7 +27403,8 @@
     },
     "513:10": {
       "preRequisites:11": [
-        60
+        60,
+        116
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -27583,7 +27586,6 @@
     },
     "517:10": {
       "preRequisites:11": [
-        21,
         145
       ],
       "properties:10": {
@@ -28166,9 +28168,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 166,
+            "Damage:2": 32017,
             "OreDict:8": "",
-            "id:8": "thermalfoundation:material"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
@@ -28844,7 +28846,8 @@
       "preRequisites:11": [
         21,
         147,
-        259
+        259,
+        76
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -29005,7 +29008,8 @@
     },
     "543:10": {
       "preRequisites:11": [
-        60
+        60,
+        116
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -29387,7 +29391,6 @@
     },
     "549:10": {
       "preRequisites:11": [
-        76,
         837
       ],
       "properties:10": {
@@ -30876,9 +30879,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 32,
+            "Damage:2": 32019,
             "OreDict:8": "",
-            "id:8": "redstonearsenal:material"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -30909,9 +30912,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 64,
-              "Damage:2": 32,
-              "OreDict:8": "ingotElectrumFlux",
-              "id:8": "redstonearsenal:material"
+              "Damage:2": 32019,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -30929,9 +30932,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 165,
+            "Damage:2": 32010,
             "OreDict:8": "",
-            "id:8": "thermalfoundation:material"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -30982,9 +30985,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 167,
+            "Damage:2": 32018,
             "OreDict:8": "",
-            "id:8": "thermalfoundation:material"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -31035,15 +31038,15 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 5,
+            "Damage:2": 2062,
             "OreDict:8": "",
-            "id:8": "enderio:item_alloy_ingot"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 1,
-          "name:8": "Pulsating Iron Ingots",
+          "name:8": "§2Rhodium Plated Lumium-Palladium",
           "partysinglereward:1": 0,
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
@@ -31068,7 +31071,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 64,
-              "Damage:2": 32014,
+              "Damage:2": 2062,
               "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
             }
@@ -31249,9 +31252,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 1,
+            "Damage:2": 32023,
             "OreDict:8": "",
-            "id:8": "avaritia:resource"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -31393,9 +31396,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 32015,
             "OreDict:8": "",
-            "id:8": "enderio:item_alloy_ingot"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -31446,9 +31449,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 8,
+            "Damage:2": 32025,
             "OreDict:8": "",
-            "id:8": "enderio:item_alloy_ingot"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -31606,9 +31609,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 6,
+            "Damage:2": 32003,
             "OreDict:8": "",
-            "id:8": "enderio:item_alloy_ingot"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -31659,9 +31662,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 2,
+            "Damage:2": 32013,
             "OreDict:8": "",
-            "id:8": "enderio:item_alloy_ingot"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -31712,9 +31715,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 1,
+            "Damage:2": 32012,
             "OreDict:8": "",
-            "id:8": "enderio:item_alloy_ingot"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -31765,9 +31768,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 7,
+            "Damage:2": 32024,
             "OreDict:8": "",
-            "id:8": "enderio:item_alloy_ingot"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -32343,9 +32346,7 @@
       }
     },
     "610:10": {
-      "preRequisites:11": [
-        328
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -32359,7 +32360,7 @@
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
-          "issilent:1": 0,
+          "issilent:1": 1,
           "lockedprogress:1": 1,
           "name:8": "Ferroboron",
           "partysinglereward:1": 0,
@@ -32397,12 +32398,12 @@
     },
     "611:10": {
       "preRequisites:11": [
-        610
+        328
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Alloying some §6Lithium§r into your §6Ferroboron§r results in §6Tough Alloy§r, a common component in §bNuclearCraft§r blocks.",
+          "desc:8": "§6Ferroboron§r is an alloy of §6Steel§r and §6Boron§r.\n\nAlloying some §6Lithium§r into your §6Ferroboron§r results in §6Tough Alloy§r, a common component in §bNuclearCraft§r blocks.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -35490,7 +35491,7 @@
             "id:8": "nuclearcraft:fuel_uranium"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 1,
           "name:8": "Uranium Fission",
@@ -35521,12 +35522,6 @@
               "Damage:2": 4,
               "OreDict:8": "",
               "id:8": "nuclearcraft:fuel_uranium"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 4,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:depleted_fuel_uranium"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -35605,12 +35600,12 @@
     },
     "671:10": {
       "preRequisites:11": [
-        672
+        350
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Thorium is another basic fissile material that can be used to get into the fissile chain. Thorium comes from §6Pitchblende Ore§r, §6Thorium Ore§r, and even §2Black Granite§r (with a few processing steps).\n\nThorium-Bred Uranium, or §6TBU§r for short, is made from nine clumps of §6Thorium 232§r enriched in a §3Thermal Centrifuge§r.\n\nThe depleted fuel provides tiny clumps of §6Uranium 233§r, §6Uranium 235§r, §6§6Neptunium 236§r, and §6Neptunium 237§r.",
+          "desc:8": "Thorium is a basic fissile material that can be used to get into the fissile chain. Thorium comes from §6Pitchblende Ore§r, §6Thorium Ore§r, and even §2Black Granite§r (with a few processing steps).\n\nThorium-Bred Uranium, or §6TBU§r for short, is made from nine clumps of §6Thorium 232§r enriched in a §3Thermal Centrifuge§r.\n\nThis fuel is processed in your §3Fission Reactor§r by placing it in the controller. When a redstone signal is applied it will burn the fuel, generating some power from the reactor and after a while you\u0027ll get a §6Depleted TBU Fuel§r§r.\n\nThe depleted fuel provides tiny clumps of §6Uranium 233§r, §6Uranium 235§r, §6§6Neptunium 236§r, and §6Neptunium 237§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -35619,7 +35614,7 @@
             "id:8": "nuclearcraft:fuel_thorium"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 1,
           "name:8": "§2Thorium Fission",
@@ -35647,21 +35642,15 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 9,
-              "Damage:2": 109,
+              "Damage:2": 4,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
+              "id:8": "nuclearcraft:thorium"
             },
             "1:10": {
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "nuclearcraft:fuel_thorium"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:depleted_fuel_thorium"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -35679,15 +35668,15 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 8,
+            "Damage:2": 116,
             "OreDict:8": "",
-            "id:8": "nuclearcraft:uranium"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 1,
-          "name:8": "§2Nuclear Fuel Infrastructure",
+          "name:8": "§2Uranium Fuel Infrastructure",
           "partysinglereward:1": 0,
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
@@ -35713,13 +35702,13 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 116,
-              "OreDict:8": "ingotUranium238",
+              "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
             },
             "1:10": {
               "Count:3": 1,
               "Damage:2": 117,
-              "OreDict:8": "ingotUranium235",
+              "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
             }
           },
@@ -35734,7 +35723,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Low-Enriched Neptunium 236, or §6LEN-236§r, is the next step in the fissile material fuel chain.\n\nThis fuel requires an 8:1 ratio of §6Neptunium 237§r to §6Neptunium 236§r. Using only the results from Thorium fission, it will take two batches of §6Depleted TBU Fuel§r to make your first LEN fuel.\n\nOf course, higher order reactions also will result in small amounts of Neptunium that you can work with as well.\n\n§6Depleted LEN 236§r gives a small bit of Neptunium 237 back, but principally provides §6Plutonium§r and §6Americium§r isotopes.\n",
+          "desc:8": "§oNote: this quest accepts Neptunium 236 or 237.§r\n\nLow-Enriched Neptunium 236, or §6LEN-236§r, is the next step in the fissile material fuel chain.\n\nThis fuel requires an 8:1 ratio of §6Neptunium 237§r to §6Neptunium 236§r. Using only the results from Thorium fission, it will take two batches of §6Depleted TBU Fuel§r to make your first LEN fuel.\n\nOf course, higher order reactions also will result in small amounts of Neptunium that you can work with as well.\n\n§6Depleted LEN 236§r gives a small bit of Neptunium 237 back, but principally provides §6Plutonium§r and §6Americium§r isotopes.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -35743,7 +35732,7 @@
             "id:8": "nuclearcraft:fuel_neptunium"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 1,
           "name:8": "Neptunium Fission",
@@ -35771,27 +35760,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:neptunium"
-            },
-            "1:10": {
-              "Count:3": 8,
               "Damage:2": 4,
-              "OreDict:8": "",
+              "OreDict:8": "questbookNeptunium",
               "id:8": "nuclearcraft:neptunium"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:fuel_neptunium"
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:depleted_fuel_neptunium"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -35800,7 +35771,8 @@
     },
     "674:10": {
       "preRequisites:11": [
-        671
+        671,
+        672
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -35814,7 +35786,7 @@
             "id:8": "nuclearcraft:uranium"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 1,
           "name:8": "LEU-233",
@@ -35844,13 +35816,13 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "nuclearcraft:fuel_uranium"
+              "id:8": "nuclearcraft:uranium"
             },
             "1:10": {
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "nuclearcraft:depleted_fuel_uranium"
+              "id:8": "nuclearcraft:fuel_uranium"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -35860,12 +35832,13 @@
     "675:10": {
       "preRequisites:11": [
         669,
-        674
+        674,
+        673
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Low-Enriched Plutonium 239, or §6LEP-239§r, is made from the usual 8:1 ratio of two isotopes of §6Plutonium§r acquired from earlier depleted fuels.\n\n§6Depleted LEP-239§r will give you some §6Curium§r for further enrichment.\n\nHigh-Enriched Plutonium fuels will give better results, but §cgenerate a lot more heat§r. Make sure your reactor cooling is up to the task.",
+          "desc:8": "§oNote: this quest accepts Plutonium 238, 239, 241 or 242.§r\n\nLow-Enriched Plutonium 239, or §6LEP-239§r, is made from the usual 8:1 ratio of two isotopes of §6Plutonium§r, 242 and 239, acquired from earlier depleted fuels. You will also need §6Plutonium§r in large amounts for §eSunnarium§r.\n\nThe two sources of Plutonium are Uranium-based fuels and Neptunium-based fuels.\n\n§6Depleted LEP-239§r will give you two different isotopes of §6Curium§r for further enrichment.\n\nHigh-Enriched Plutonium fuels will give better results, but §cgenerate a lot more heat§r. Make sure your reactor cooling is up to the task.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -35874,7 +35847,7 @@
             "id:8": "nuclearcraft:fuel_plutonium"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 1,
           "name:8": "Plutonium Fission",
@@ -35902,27 +35875,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 81,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_ingot"
-            },
-            "1:10": {
-              "Count:3": 8,
               "Damage:2": 12,
-              "OreDict:8": "",
+              "OreDict:8": "questbookPlutonium",
               "id:8": "nuclearcraft:plutonium"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:fuel_plutonium"
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:depleted_fuel_plutonium"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -35937,7 +35892,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Low-Enriched Curium 243, or §6LECm-243§r, is made from §6Curium-243§r and §6Curium-246§r.\n\n§6Depleted LECm-243 Fuel§r gives mostly Curium-246 back, but also small quantities of §6Berkelium§r and §6Californium§r isotopes.\n\n§6HECm-247§r is a better alternative for strictly Californium, if your reactor can withstand the heat.",
+          "desc:8": "§oNote: this quest accepts Curium 243, 245, 246 or 247.§r\n\nLow-Enriched Curium 243, or §6LECm-243§r, is made from §6Curium-243§r and §6Curium-246§r. You will also need §6Curium§r in large amounts for §eSunnarium§r.\n\n§6Depleted LECm-243 Fuel§r gives mostly Curium-246 back, but also small quantities of §6Berkelium§r and §6Californium§r isotopes.\n\n§6HECm-247§r is a better alternative for strictly Californium, if your reactor can withstand the heat.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -35946,7 +35901,7 @@
             "id:8": "nuclearcraft:fuel_curium"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 1,
           "name:8": "Curium Fission",
@@ -35974,27 +35929,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:curium"
-            },
-            "1:10": {
-              "Count:3": 8,
               "Damage:2": 8,
-              "OreDict:8": "",
+              "OreDict:8": "questbookCurium",
               "id:8": "nuclearcraft:curium"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:fuel_curium"
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:depleted_fuel_curium"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -36002,13 +35939,18 @@
       }
     },
     "677:10": {
+      "preRequisiteTypes:7": [
+        0,
+        1
+      ],
       "preRequisites:11": [
-        673
+        673,
+        674
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6Americium 242§r and §6Americium 243§r are used to make §6LEA-242 Fuel§r.\n\nThere\u0027s also §6Americium 241§r, but this is only useful for making RTGs (which produce small amounts of RF continuously) or decaying down into §6Neptunium§r.\n\n§6Depleted LEA 242 Fuels§r§r will return large amounts of §6Curium 246§r and small amounts of other isotopes.",
+          "desc:8": "§oNote: this quest accepts Americium 241, 242, or 243.\n\n§6Americium 242§r and §6Americium 243§r are used to make §6LEA-242 Fuel§r.\n\nThere\u0027s also §6Americium 241§r, but this is only useful for making RTGs (which produce small amounts of RF continuously) or decaying down into §6Neptunium§r.\n\n§6Depleted LEA 242 Fuels§r§r will return a lot of §6Curium 246§r, and small amounts of the other three isotopes.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -36017,12 +35959,12 @@
             "id:8": "nuclearcraft:fuel_americium"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 1,
           "name:8": "Americium Fission",
           "partysinglereward:1": 0,
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -36045,27 +35987,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 4,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:americium"
-            },
-            "1:10": {
-              "Count:3": 8,
               "Damage:2": 8,
-              "OreDict:8": "",
+              "OreDict:8": "questbookAmericium",
               "id:8": "nuclearcraft:americium"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:fuel_americium"
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:depleted_fuel_americium"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -36079,7 +36003,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6Depleted LEB-248 Fuel§r results in several different isotopes of §6§6Californium§r.",
+          "desc:8": "§oNote: this quest accepts Berkelium 247 or 248.\n\n§6LEB-248 Fuel§r is made with §e8 §6Berkelium-247§r and §e1 §6Berkelium 248§r. When depleted, it results in several different isotopes of §6Californium§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -36088,7 +36012,7 @@
             "id:8": "nuclearcraft:fuel_berkelium"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 1,
           "name:8": "Berkelium Fission",
@@ -36116,27 +36040,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 4,
-              "OreDict:8": "",
+              "Damage:2": 0,
+              "OreDict:8": "questbookBerkelium",
               "id:8": "nuclearcraft:berkelium"
-            },
-            "1:10": {
-              "Count:3": 8,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:berkelium"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:fuel_berkelium"
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:depleted_fuel_berkelium"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -36150,7 +36056,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6Californium§r is the final fissile material in the NuclearCraft processing chain.\n\n§6Depleted LECf-249 Fuel§r results in... different isotopes of Californium.\n\nUnless you want §6Californium RTGs§r or are experimenting with further fission routes, this step is probably unnecessary for general materials processing.",
+          "desc:8": "§oNote: this quest accepts Californium 249, 250, 251 or 252.\n\n§6Californium§r is the final fissile material in the NuclearCraft processing chain.\n\n§6LECf-249 Fuel§r is made with the 8:1 ratio of §6Californium-252§r and §6Californium-249§r. When depleted, it results in... different isotopes of Californium.\n\nUnless you want §6Californium RTGs§r or are experimenting with further fission routes, this step is probably unnecessary for general materials processing.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -36159,7 +36065,7 @@
             "id:8": "nuclearcraft:fuel_californium"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 1,
           "name:8": "Californium Fission",
@@ -36187,27 +36093,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:californium"
-            },
-            "1:10": {
-              "Count:3": 8,
               "Damage:2": 12,
-              "OreDict:8": "",
+              "OreDict:8": "questbookCalifornium",
               "id:8": "nuclearcraft:californium"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:fuel_californium"
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:depleted_fuel_californium"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -36408,7 +36296,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6§6String§r and §6Coal Dust§r can be baked together into a §6Carbon Mesh§r in an §3Alloy Furnace§r.\n\nCombine that with §6Pulsating Dust§r to get a §6Pulsating Mesh§r.\n\n",
+          "desc:8": "§6§6String§r and §6Coal Dust§r can be baked together into a §6Carbon Mesh§r in an §3Alloy Furnace§r.\n\nCombine that with §6Pulsating Dust§r to get a §6Pulsating Mesh§r.\n\nThis will not be needed now. In fact, its only use is for §6Solar Panels§r. The §6Carbon Mesh§r has some uses though.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -39065,8 +38953,11 @@
       }
     },
     "743:10": {
+      "preRequisiteTypes:7": [
+        2
+      ],
       "preRequisites:11": [
-        805
+        3
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -41425,8 +41316,11 @@
       }
     },
     "786:10": {
+      "preRequisiteTypes:7": [
+        2
+      ],
       "preRequisites:11": [
-        805
+        3
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -42325,8 +42219,11 @@
       }
     },
     "803:10": {
+      "preRequisiteTypes:7": [
+        2
+      ],
       "preRequisites:11": [
-        805
+        3
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -42455,37 +42352,60 @@
     },
     "805:10": {
       "preRequisites:11": [
-        3
+        260
       ],
       "properties:10": {
         "betterquesting:10": {
-          "autoclaim:1": 1,
-          "desc:8": "a quest",
+          "autoclaim:1": 0,
+          "desc:8": "Around this point, you will need large quantities of §6Hydrogen§r and §6Oxygen§r. \n\nThe first way that comes to mind is electrolysing §9Water§r, but that is slow. \n\nInstead, the best way of making early game §6Oxygen§r is §6Silicon Dioxide§r.\n\n§6Hydrogen§r is a bit trickier, but you can put §6Methane§r and §6Water§r together in a §3Chemical Reactor§r. §6Methane§r can be achieved by centrifuging §6Food§r and §6Wood§r, processing §6Pyroluse Byproducts§r, or through §6Petroleum§r. \n\nRight now, for the small quantities you need, you can simply electrolyse §9Water§r. Just keep those other ways in mind, for later in the game.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:nether_star"
+            "id:8": "forge:bucketfilled",
+            "tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "hydrogen"
+            }
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
-          "issilent:1": 1,
-          "lockedprogress:1": 1,
-          "name:8": "STE-Genesis",
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Hydrogen and Oxygen",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
-          "snd_complete:8": "",
-          "snd_update:8": "",
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 805,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "hydrogen"
+            },
+            "1:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "oxygen"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
     },
     "806:10": {
       "preRequisites:11": [
@@ -42589,8 +42509,11 @@
       }
     },
     "808:10": {
+      "preRequisiteTypes:7": [
+        2
+      ],
       "preRequisites:11": [
-        805
+        3
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -42905,7 +42828,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§2The Bending Machine makes, depending on what Programmable Circuit it\u0027s given:\n- Plates from a single ingot (instead of the Compressor)\n- 4 Foils from a Plate (instead of the Cluster Mill, which is no more)\n- Double Plates from two Plates\n- Dense Plates from nine Plates\n- Small Springs from one Rod\n- Springs from one Long Rod. \n\nWhy was this removed?!",
+          "desc:8": "§2The Bending Machine makes, depending on what Programmable Circuit it\u0027s given:\n- Plates from a single ingot (instead of the Compressor)\n- 4 Foils from a Plate (instead of the Cluster Mill, which is no more)\n- Double Plates from two Plates\n- Dense Plates from nine Plates\n- Small Springs from one Rod\n- Springs from one Long Rod. §r\n\nWhy was this removed?!\n\nNote that circuits can be placed in the circuit slot instead of the input of the bender, which creates a \u0027Ghost Circuit\u0027, which doesn\u0027t take up the circuit. This means you only have to use 1 circuit! (Except in Input Buses of Multiblocks)",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -43287,7 +43210,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§2Sodium Persulfate§r §2and Iron III Chloride§r are used to make cheaper §9Good Circuit Boards§r, as it cuts the Silver amount by a factor of four. They are also §drequired§r to make §9Plastic Circuit Boards§r.\n\nMaking §aSodium Persulfate§r will yield §aHydrochloric Acid§r as a coproduct, which you may re-use to make §aIron III Chloride§r. This should the best approach right now, but the decision is entirely yours. With more automation later in the game, Iron III Chloride will be the cheaper and more straight forward path.\n\nSodium Persulfate§r can also be used in §9Ore Processing§r in the §3Chemical Bath§r, to get various bonus outputs you would not normally obtain. It is completely optional, but pretty rewarding.",
+          "desc:8": "§2Sodium Persulfate§r §2and Iron III Chloride§r are used to make cheaper §9Good Circuit Boards§r, as it cuts the Silver amount by a factor of four. They are also §drequired§r to make §9Plastic Circuit Boards§r.\n\nMaking §aSodium Persulfate§r with §6Salt§r will yield §aHydrochloric Acid§r as a coproduct, which you may re-use to make §aIron III Chloride§r. This should the best approach right now, but the decision is entirely yours. With more automation later in the game, Iron III Chloride will be the cheaper and more straight forward path.\n\nSodium Persulfate§r can also be used in §9Ore Processing§r in the §3Chemical Bath§r, to get various bonus outputs you would not normally obtain. It is completely optional, but pretty rewarding.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -43781,8 +43704,13 @@
       }
     },
     "830:10": {
+      "preRequisiteTypes:7": [
+        0,
+        2
+      ],
       "preRequisites:11": [
-        93
+        93,
+        89
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -44026,7 +43954,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§2Super Tanks are the high-tier GT Fluid storage solution.§r\n\nThe first tier holds §64,000 buckets§r, and higher tiers hold more. They can also be used like Drums to put fluids in and out of machines.\n\nYou can conveniently configure §cvoiding§r for them to always void, start voiding at 95% capacity, or never void.\n\nThe item equivalent are §3Super Chests§r, which are used in certain §6Micro Miner§r recipes. Higher-tier versions of these are called §3Quantum Tanks§r and §3Quantum Chests§r. They all require their respective tier §3Hermetic Casings§r to craft.",
+          "desc:8": "§oNote: This quest accepts any Super or Quantum Tank.\n\n§2Super and Quantum Tanks are the high-tier GT Fluid storage solution.§r\n\nThe first tier holds §64,000 buckets§r, and higher tiers hold more. They can also be used like Drums to put fluids in and out of machines.\n\nYou can conveniently configure §cvoiding§r for them to always void, start voiding at 95% capacity, or never void.\n\nThe item equivalent are §3Super Chests§r, which are used in certain §6Micro Miner§r recipes.\n\nHigher-tier versions of these are called §3Quantum Tanks§r and §3Quantum Chests§r. They all require their respective tier §3Hermetic Casings§r to craft.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -44038,7 +43966,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "§2Super Tanks",
+          "name:8": "§2Super and Quantum Tanks",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -44063,7 +43991,7 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 1575,
-              "OreDict:8": "",
+              "OreDict:8": "questbookTanks",
               "id:8": "gregtech:machine"
             }
           },
@@ -44185,7 +44113,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§2A bit of Vanadiumsteel is used for progression. It\u0027s also a very strong tool material.\n\n§6Vanadium§r is an element acquired by processing §6Vanadium Magnetite Ore§r.",
+          "desc:8": "§2A bit of Vanadiumsteel is used for progression. It\u0027s also a very strong tool material.\n\n§6Vanadium§r is an element acquired by §celectrolysing Vanadium Pentoxide.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -45335,7 +45263,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§2The Alloy Blast Smelter directly smelts dust combinations into molten Alloys, skipping the Mixer step. Some molten alloys may need to be cooled in a Vacuum Freezer before being usable.\n\n§rThis is the only way to create some of the advanced alloys used in multiblock machines. You can also use it for most normal alloys if you want. In particular, the yield of §6Energetic Alloy§r and §6Vibrant Alloy§r is §ddoubled§r.",
+          "desc:8": "§2The Alloy Blast Smelter directly smelts dust combinations into molten Alloys, skipping the Mixer step, and applying a 3/4 discount to your EBF time. Some molten alloys may need to be cooled in a Vacuum Freezer before being usable.\n\n§rThis is the only way to create some of the advanced alloys used in multiblock machines. You can also use it for most normal alloys if you want. In particular, the yield of §6Energetic Alloy§r and §6Vibrant Alloy§r is §ddoubled§r.\n\nYou can also use the ABS for most Alloy Smelter alloys, apart from §6Steel§r, like §eInvar§r, §e§eConductive Iron§r§r, and §e§eDark Steel§r§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -48031,13 +47959,12 @@
     },
     "909:10": {
       "preRequisites:11": [
-        670,
-        805
+        670
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "A mixture of §6Clay, Brick, §cQuartz Sand, Calcite, Gypsum, Stone Dust§r produces §6Firebricks§r, used in building the §3Primitive Blast Furnace§r. This allows you to make §6Steel§r from §6Wrought Iron§r, which forms the basis of LV Machine Hulls.",
+          "desc:8": "A mixture of §6Clay, Brick, §cQuartz Sand, Calcite, Gypsum, Stone Dust§r produces §6Firebricks§r, used in building the §3Primitive Blast Furnace§r. This allows you to make §6Steel§r from §6Wrought Iron§r, which forms the basis of LV Machine Hulls.\n\nAlso allows you to make the §6Belt Pouch§r, to upgrade your §eTool Belt§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -48259,8 +48186,11 @@
       }
     },
     "913:10": {
+      "preRequisiteTypes:7": [
+        2
+      ],
       "preRequisites:11": [
-        805
+        3
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -48333,8 +48263,11 @@
       }
     },
     "914:10": {
+      "preRequisiteTypes:7": [
+        2
+      ],
       "preRequisites:11": [
-        805
+        3
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -48659,7 +48592,7 @@
     },
     "920:10": {
       "preRequisiteTypes:7": [
-        1,
+        2,
         0,
         0
       ],
@@ -48680,7 +48613,7 @@
             "id:8": "contenttweaker:tiereightandhalfship"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Tier Eight and a Half Micro Miner",
@@ -49046,6 +48979,628 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "927:10": {
+      "preRequisites:11": [
+        4
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§2A brand new and highly requested mod to CEu to help you manage your tools!§r\n\nThe §eTool Belt§r is a item, which can store your tools, and exchange them easily! Right now, it has 2 slots, but later, once you unlock §6Steel§r, you can upgrade it with §6Belt Pouches§r, all the way to 9 slots, with an §3Anvil§r and some §aXP§r!\n\nMake the Tool Belt, and you can use the keybind (default is `R\u0027), while the belt is in your inventory or Bauble Slots §cand you are holding something, or the belt is not empty§r, to open its GUI. \n\nAlternatively, you can right click while holding the belt to open its inventory.\n\nThe Tool Belt is equipable as a §bBauble§r. Open your inventory and look for the Baubles button, and click it to reveal the additional bauble slots menu, and then put it in the Belt Slot. Or, just click in every bauble slot until it goes in, if you can\u0027t tell which bauble slot looks like a belt.\n\nThe Tool Belt can store anything with a stack size of 1, like swords, pickaxes, §bGregTech§r tools, and the §6Terminal§r. It has also been modified a bit, so it also allows any §bStorage Drawers§r key, and §cdoesn\u0027t allow any Thermal Satchel§r.\n\nNow, you can insert and extract from the belt! You can also use the Keybinds `§eCycle Tool Left§r\u0027 and `§eCycle Tool Right§r\u0027 whilst you are in the GUI.\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "toolbelt:belt"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "§2Tool Belt",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 927,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "toolbelt:belt"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "928:10": {
+      "preRequisites:11": [
+        885
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§bUV§r Machine Hulls. The second last Machine Hull. §bUV§r stands for §bUltimate Voltage§r.\n\nThis Hull is made with §2Darmstadtium, Yttrium Barium Cuprate Cables, and Polybenzimidazole.§r\n\nYou\u0027ll need it mainly for the §6Fusion Reactor MK 3§r.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 993,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "§2UV Machine Hulls",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 928,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 993,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "929:10": {
+      "preRequisites:11": [
+        818
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Having trouble finding a biome? Never fear, the §6Nature’s Compass§r is here! For a very small price, you’ll be able to find any biome your heart pleases!\n\n§bRight-clicking§r with the Nature’s Compass in hand will open the §eSelect Biome GUI§r, where you can search any biome, modded or vanilla. Once you find the desired biome, double click or hit §aStart Search§r, and the compass will now point you in the direction of the biome, and tell you how far it it is.\n\nIn the top left of the Select Biome GUI, you can hit the §aInfo§r button for additional information on the biome. You can also press §aSort By§r to change how the biomes are organized.\n\nOnce you have found your desired biome, you can §bshift right-click§r while holding the compass to clear the selected biome. When no biome is selected, the compass will simply point to world spawn.\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "naturescompass:naturescompass",
+            "tag:10": {}
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Nature\u0027s Compass",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 929,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "naturescompass:naturescompass",
+              "tag:10": {}
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "930:10": {
+      "preRequisites:11": [
+        100,
+        98
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oNote: This quest accepts both Memory Cards, and Advanced Memory Cards.§r\n\nA §6P2P Tunnel§r (§aPoint-to-Point Tunnel§r) is a powerful tool from §bApplied Energistics 2§r that can be used to send items, redstone, RF/EU or fluids from one location to another, using your ME system, without the need to use any disk storage space. §cTransporting RF/EU has a 5% tax on the input energy.§r\n\nEach P2P tunnel system may have only §cone input§r but §eany number of outputs§r. There is no limit on how many P2P tunnels, or P2P tunnel systems, you can have on one network.\n\nBy default, a P2P tunnel is an §6ME tunnel§r, which transmits Applied Energistics channels and power. Since channels are disabled, you will most likely not be using the default tunnel. You can change the mode of your P2P tunnels by right clicking the tunnel with the respective item seen in §bJEI§r.\n\nTo configure your P2P tunnels, take a §6Memory Card§r. While holding the memory card, §ashift-right click§r the unconfigured tunnel, to set the frequency of the input, and save the frequency to the memory card. Once the first tunnel has been set up this way and the memory card is configured with the frequency, any subsequent tunnel you §aright-click§r with the memory card will be set as the output of the most recent frequency used.\n\nYou can also use memory cards to copy the configuration of ME blocks and tile-entities, such as §6Interfaces§r and §6Storage Buses§r. §aShift-right click§r a ME block to copy its configuration, and §aright-click§r to paste that configuration. Note that this doesn\u0027t copy upgrades applied to the block.\n\nYou can also §ashift-right click§r to empty the frequency, or the ME block configuration, set in the card.\n\nThis pack has §bBetter P2P§r, which adds the §6Advanced Memory Card§r. Using it, you can §aright-click§r on any ME device or cable that is attached to the current system. This will allow you to see all your current P2P connections without having to search for your tunnels.\n\nYou can also configure P2P tunnels using your Advanced Memory Card. While holding the card, §aright-click§r on a tunnel, it will be §aselected§r. Once a tunnel is selected, it will be highlighted in §agreen§r. You can also see your other connections with the options to select or bind; hitting select will reselect the tunnel.\n\nAn incorrect setup will show in §cred§r (Usually P2P device without input).\n\nThe §6Advanced Memory Card§r has 3 modes accessible in the §3GUI§r:\n\n§aBind Output§r:\nOnce the tunnel you would like to be set as an input has been §aselected§r, hitting §bbind§r on any other connection will turn the selected tunnel into an input tunnel, and any binded tunnels will be turned into output tunnels for the selected tunnel.\n\n§aBind Input§r:\nOnce the tunnel you would like to be set as an output has been §aselected§r, hitting §bbind§r on any other tunnel will set the tunnel as the input of the selected tunnel. This is useful for when you can’t find the output tunnel.\n \n§aCopy Output§r:\nOnce an output tunnel you want to copy has been §aselected§r, hitting §bbind§r on any other connection will copy the output frequency of the selected tunnel.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "betterp2p:advanced_memory_card",
+            "tag:10": {
+              "selectedIndex:3": -1
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "P2P Tunnels",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 930,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 460,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:part"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "questbookCards",
+              "id:8": "appliedenergistics2:memory_card",
+              "tag:10": {}
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "931:10": {
+      "preRequisites:11": [
+        556,
+        604
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Neeve, the master of Leveret. Summon him, and then bless him with your presents, and you shall gain access to his all-powerful rabbit.\n\nAll 5 tasks must be done to complete this secret quest!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:rabbit_hide"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Neeve",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 931,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:spawn_egg",
+              "tag:10": {
+                "EntityTag:10": {
+                  "id:8": "minecraft:rabbit"
+                },
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve\u0027s Rabbit (Leveret)"
+                }
+              }
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 40,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor",
+              "tag:10": {
+                "Charge:4": 100000000,
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve\u0027s Head and Head Muscles"
+                }
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 50,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor",
+              "tag:10": {
+                "Charge:4": 1000000000,
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve\u0027s Body and Body Muscles"
+                }
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 42,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor",
+              "tag:10": {
+                "Charge:4": 100000000,
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve\u0027s Legs and Leg Muscles"
+                }
+              }
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 43,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor",
+              "tag:10": {
+                "Charge:4": 100000000,
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve\u0027s Feet and Foot Muscles"
+                }
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:rotten_flesh",
+              "tag:10": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve\u0027s Body"
+                }
+              }
+            },
+            "1:10": {
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:bone",
+              "tag:10": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve\u0027s Bones"
+                }
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "forge:bucketfilled",
+              "tag:10": {
+                "Amount:3": 1000,
+                "FluidName:8": "air",
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve\u0027s Lungs"
+                }
+              }
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:heartofauniverse",
+              "tag:10": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve\u0027s Heart"
+                }
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:magnetron",
+              "tag:10": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve Attracter"
+                }
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:universecreationdata",
+              "tag:10": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve Finder"
+                }
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:tierfourandhalfship_stabilized",
+              "tag:10": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve Traveller"
+                }
+              }
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:tiertenship",
+              "tag:10": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve Retriever"
+                }
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "autoConsume:1": 0,
+          "consume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 3,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:tierfourandhalfship",
+              "tag:10": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve\u0027s Past"
+                }
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:tiereightandhalfship",
+              "tag:10": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve\u0027s Future"
+                }
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "betterquesting:quest_book",
+              "tag:10": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve\u0027s Work"
+                }
+              }
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "actuallyadditions:block_empowerer",
+              "tag:10": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve\u0027s Enemy"
+                }
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "4:10": {
+          "autoConsume:1": 0,
+          "consume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 4,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:sixtyfoursmore",
+              "tag:10": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve Feeder"
+                }
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve Negotiating Chip"
+                }
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "minecraft:bed",
+              "tag:10": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Neeve\u0027s Bed"
+                }
+              }
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 292,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Glob"
+                }
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "932:10": {
+      "preRequisiteTypes:7": [
+        2
+      ],
+      "preRequisites:11": [
+        3
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This pack has §bInventory Bogo Sorter§r, allowing for quick, customizable, and easy sorting of any inventory!\n\nThe default key is §aMiddle Click§r, §cbut that keybind is currently broken§r. Change the sort key to a keybind with no conflicts.\n\nYou can also configure how it is sorted, within the GUI. The default key is §aK§r, but you may have to change this.\n\nSimply hover over any slot in the inventory (§6Chests§r, §6Crates§r, your personal inventory, etc.), and click your sort keybind, and voila! A neat inventory.\n\nInventory Bogo Sorter by default also replaces stacks of items, like blocks, tools and food in your hotbar. So you can build a pillar to y-256 without opening your inventory!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:chest"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Inventory Sorting",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 932,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -49056,7 +49611,7 @@
         "betterquesting:10": {
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "GregTech §7Low Voltage§r Tier: start building a factory!\n\nUnlock access to §bDeep Mob Learning§r, early §bEnderIO§r tech, and §bApplied Energistics 2§r Digital Storage.\n\nBuild an §3Electric Blast Furnace§r for smelting advanced materials and alloys.",
+          "desc:8": "GregTech §7Low Voltage§r Tier: start building a factory!\n\nUnlock access to early §bEnderIO§r tech and §bApplied Energistics 2§r Digital Storage.\n\nBuild an §3Electric Blast Furnace§r for smelting advanced materials and alloys.",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 1001,
@@ -49073,14 +49628,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -516,
-          "y:3": 136
+          "y:3": 128
         },
         "1:10": {
           "id:3": 21,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -748,
-          "y:3": 124
+          "y:3": 116
         },
         "2:10": {
           "id:3": 22,
@@ -49094,42 +49649,42 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -648,
-          "y:3": 104
+          "y:3": 96
         },
         "4:10": {
           "id:3": 26,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -648,
-          "y:3": 136
+          "y:3": 128
         },
         "5:10": {
           "id:3": 28,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -504,
-          "y:3": 44
+          "y:3": 36
         },
         "6:10": {
           "id:3": 29,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -560,
-          "y:3": 44
+          "y:3": 36
         },
         "7:10": {
           "id:3": 30,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -648,
-          "y:3": 188
+          "y:3": 176
         },
         "8:10": {
           "id:3": 33,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -560,
-          "y:3": 204
+          "y:3": 196
         },
         "9:10": {
           "id:3": 34,
@@ -49157,21 +49712,21 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -560,
-          "y:3": 236
+          "y:3": 232
         },
         "13:10": {
           "id:3": 53,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -804,
-          "y:3": 228
+          "y:3": 220
         },
         "14:10": {
           "id:3": 59,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -736,
-          "y:3": 260
+          "y:3": 232
         },
         "15:10": {
           "id:3": 60,
@@ -49189,10 +49744,10 @@
         },
         "17:10": {
           "id:3": 72,
-          "sizeX:3": 32,
-          "sizeY:3": 32,
-          "x:3": -844,
-          "y:3": 180
+          "sizeX:3": 56,
+          "sizeY:3": 56,
+          "x:3": -908,
+          "y:3": 276
         },
         "18:10": {
           "id:3": 145,
@@ -49206,28 +49761,28 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -792,
-          "y:3": 136
+          "y:3": 128
         },
         "20:10": {
           "id:3": 147,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -840,
-          "y:3": 292
+          "y:3": 232
         },
         "21:10": {
           "id:3": 215,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -840,
-          "y:3": 88
+          "y:3": 80
         },
         "22:10": {
           "id:3": 228,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -560,
-          "y:3": 88
+          "y:3": 80
         },
         "23:10": {
           "id:3": 231,
@@ -49248,21 +49803,21 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -648,
-          "y:3": 240
+          "y:3": 232
         },
         "26:10": {
           "id:3": 270,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -940,
-          "y:3": 136
+          "y:3": 128
         },
         "27:10": {
           "id:3": 272,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
-          "y:3": 172
+          "y:3": 160
         },
         "28:10": {
           "id:3": 273,
@@ -49276,56 +49831,56 @@
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -480,
-          "y:3": 124
+          "y:3": 116
         },
         "30:10": {
           "id:3": 296,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
-          "y:3": 136
+          "y:3": 128
         },
         "31:10": {
           "id:3": 352,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -792,
-          "y:3": 88
+          "y:3": 80
         },
         "32:10": {
           "id:3": 402,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -468,
-          "y:3": 368
+          "x:3": -444,
+          "y:3": 342
         },
         "33:10": {
           "id:3": 403,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -516,
-          "y:3": 368
+          "x:3": -492,
+          "y:3": 342
         },
         "34:10": {
           "id:3": 413,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -840,
-          "y:3": 136
+          "x:3": -892,
+          "y:3": 128
         },
         "35:10": {
           "id:3": 489,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -892,
-          "y:3": 292
+          "x:3": -984,
+          "y:3": 184
         },
         "36:10": {
           "id:3": 490,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -560,
-          "y:3": 136
+          "y:3": 128
         },
         "37:10": {
           "id:3": 497,
@@ -49346,21 +49901,21 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -792,
-          "y:3": 184
+          "y:3": 292
         },
         "40:10": {
           "id:3": 517,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -892,
-          "y:3": 136
+          "y:3": 232
         },
         "41:10": {
           "id:3": 528,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
-          "y:3": 204
+          "y:3": 196
         },
         "42:10": {
           "id:3": 544,
@@ -49381,21 +49936,21 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -736,
-          "y:3": 88
+          "y:3": 80
         },
         "45:10": {
           "id:3": 553,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
-          "y:3": 88
+          "y:3": 80
         },
         "46:10": {
           "id:3": 554,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
-          "y:3": 56
+          "y:3": 48
         },
         "47:10": {
           "id:3": 559,
@@ -49409,105 +49964,112 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -504,
-          "y:3": 88
+          "y:3": 80
         },
         "49:10": {
           "id:3": 774,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -940,
+          "x:3": -840,
           "y:3": 184
         },
         "50:10": {
           "id:3": 775,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -468,
-          "y:3": 416
+          "x:3": -444,
+          "y:3": 390
         },
         "51:10": {
           "id:3": 779,
-          "sizeX:3": 28,
-          "sizeY:3": 28,
-          "x:3": -704,
-          "y:3": 200
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -588,
+          "y:3": 390
         },
         "52:10": {
           "id:3": 787,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -560,
-          "y:3": 172
+          "y:3": 160
         },
         "53:10": {
           "id:3": 788,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -564,
-          "y:3": 416
+          "x:3": -540,
+          "y:3": 390
         },
         "54:10": {
           "id:3": 789,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -564,
-          "y:3": 368
+          "x:3": -540,
+          "y:3": 342
         },
         "55:10": {
+          "id:3": 805,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -604,
+          "y:3": 232
+        },
+        "56:10": {
           "id:3": 814,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -692,
-          "y:3": 88
+          "y:3": 80
         },
-        "56:10": {
+        "57:10": {
           "id:3": 815,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -892,
-          "y:3": 232
+          "x:3": -940,
+          "y:3": 184
         },
-        "57:10": {
+        "58:10": {
           "id:3": 819,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -516,
-          "y:3": 416
+          "x:3": -492,
+          "y:3": 390
         },
-        "58:10": {
+        "59:10": {
           "id:3": 890,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -468,
-          "y:3": 320
+          "x:3": -444,
+          "y:3": 294
         },
-        "59:10": {
+        "60:10": {
           "id:3": 893,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -516,
-          "y:3": 320
+          "x:3": -492,
+          "y:3": 294
         },
-        "60:10": {
+        "61:10": {
           "id:3": 903,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -736,
           "y:3": 292
         },
-        "61:10": {
+        "62:10": {
           "id:3": 919,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -468,
-          "y:3": 276
+          "x:3": -444,
+          "y:3": 246
         },
-        "62:10": {
+        "63:10": {
           "id:3": 926,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -468,
-          "y:3": 228
+          "x:3": -444,
+          "y:3": 198
         }
       }
     },
@@ -49534,750 +50096,757 @@
           "id:3": 2,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -292,
-          "y:3": 20
+          "x:3": -360,
+          "y:3": -56
         },
         "1:10": {
           "id:3": 19,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -444,
-          "y:3": 228
+          "x:3": -68,
+          "y:3": 208
         },
         "2:10": {
           "id:3": 22,
-          "sizeX:3": 30,
-          "sizeY:3": 30,
-          "x:3": -558,
-          "y:3": -20
+          "sizeX:3": 28,
+          "sizeY:3": 28,
+          "x:3": -60,
+          "y:3": 12
         },
         "3:10": {
           "id:3": 27,
-          "sizeX:3": 30,
-          "sizeY:3": 30,
-          "x:3": -504,
-          "y:3": -20
+          "sizeX:3": 28,
+          "sizeY:3": 28,
+          "x:3": -8,
+          "y:3": 12
         },
         "4:10": {
           "id:3": 31,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -252,
-          "y:3": 528
+          "x:3": -488,
+          "y:3": 584
         },
         "5:10": {
           "id:3": 32,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -200,
-          "y:3": 532
+          "x:3": -484,
+          "y:3": 556
         },
         "6:10": {
           "id:3": 35,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -248,
-          "y:3": 496
+          "x:3": -372,
+          "y:3": 588
         },
         "7:10": {
           "id:3": 39,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -456,
-          "y:3": 468
+          "x:3": -180,
+          "y:3": 556
         },
         "8:10": {
           "id:3": 42,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -292,
-          "y:3": 520
+          "x:3": -336,
+          "y:3": 608
         },
         "9:10": {
           "id:3": 44,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -164,
-          "y:3": 532
+          "x:3": -416,
+          "y:3": 556
         },
         "10:10": {
           "id:3": 47,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -120,
-          "y:3": 496
+          "x:3": -448,
+          "y:3": 588
         },
         "11:10": {
           "id:3": 48,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -120,
-          "y:3": 532
+          "x:3": -448,
+          "y:3": 556
         },
         "12:10": {
           "id:3": 52,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -312,
-          "y:3": 456
+          "x:3": -232,
+          "y:3": 624
         },
         "13:10": {
           "id:3": 55,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -336,
-          "y:3": 20
+          "x:3": -360,
+          "y:3": -20
         },
         "14:10": {
           "id:3": 57,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -248,
-          "y:3": 432
+          "x:3": -228,
+          "y:3": 588
         },
         "15:10": {
           "id:3": 67,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -164,
-          "y:3": 496
+          "x:3": -416,
+          "y:3": 588
         },
         "16:10": {
           "id:3": 70,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -292,
-          "y:3": -16
+          "x:3": -404,
+          "y:3": -20
         },
         "17:10": {
           "id:3": 71,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -248,
-          "y:3": 68
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": -232,
+          "y:3": 100
         },
         "18:10": {
           "id:3": 72,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -656,
-          "y:3": 16
+          "x:3": -148,
+          "y:3": -20
         },
         "19:10": {
           "id:3": 74,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -200,
-          "y:3": 104
+          "x:3": -176,
+          "y:3": 132
         },
         "20:10": {
           "id:3": 75,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -200,
+          "x:3": -228,
           "y:3": 68
         },
         "21:10": {
           "id:3": 76,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -604,
-          "y:3": 68
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": -36,
+          "y:3": 100
         },
         "22:10": {
           "id:3": 78,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -464,
-          "y:3": 20
+          "x:3": -316,
+          "y:3": 16
         },
         "23:10": {
           "id:3": 79,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -424,
-          "y:3": 104
+          "x:3": -276,
+          "y:3": 92
         },
         "24:10": {
           "id:3": 80,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -464,
-          "y:3": 68
+          "x:3": -316,
+          "y:3": 52
         },
         "25:10": {
           "id:3": 81,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -464,
-          "y:3": 104
+          "x:3": -316,
+          "y:3": 92
         },
         "26:10": {
           "id:3": 82,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -528,
-          "y:3": 20
+          "x:3": -32,
+          "y:3": 44
         },
         "27:10": {
           "id:3": 83,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -384,
-          "y:3": 140
+          "x:3": -448,
+          "y:3": 280
         },
         "28:10": {
           "id:3": 84,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -464,
-          "y:3": 140
+          "x:3": -316,
+          "y:3": 280
         },
         "29:10": {
           "id:3": 86,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -540,
-          "y:3": 128
+          "x:3": -328,
+          "y:3": 312
         },
         "30:10": {
           "id:3": 87,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -528,
-          "y:3": 188
+          "x:3": -484,
+          "y:3": 324
         },
         "31:10": {
           "id:3": 88,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -424,
-          "y:3": 140
+          "x:3": -388,
+          "y:3": 280
         },
         "32:10": {
           "id:3": 89,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -528,
-          "y:3": 228
+          "x:3": -520,
+          "y:3": 324
         },
         "33:10": {
           "id:3": 90,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -540,
-          "y:3": 364
+          "x:3": -532,
+          "y:3": 504
         },
         "34:10": {
           "id:3": 91,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -248,
-          "y:3": 104
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": -232,
+          "y:3": 144
         },
         "35:10": {
           "id:3": 92,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -200,
-          "y:3": 140
+          "x:3": -104,
+          "y:3": 132
         },
         "36:10": {
           "id:3": 93,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -260,
-          "y:3": 328
+          "x:3": -240,
+          "y:3": 392
         },
         "37:10": {
           "id:3": 94,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -324,
-          "y:3": 188
+          "x:3": -228,
+          "y:3": 208
         },
         "38:10": {
           "id:3": 95,
           "sizeX:3": 40,
           "sizeY:3": 40,
-          "x:3": -412,
-          "y:3": 332
+          "x:3": -236,
+          "y:3": 276
         },
         "39:10": {
           "id:3": 96,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -404,
-          "y:3": 388
+          "x:3": -228,
+          "y:3": 480
         },
         "40:10": {
           "id:3": 98,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": -254,
-          "y:3": 217
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": -232,
+          "y:3": 356
         },
         "41:10": {
           "id:3": 104,
           "sizeX:3": 40,
           "sizeY:3": 40,
-          "x:3": -316,
-          "y:3": 380
+          "x:3": -292,
+          "y:3": 432
         },
         "42:10": {
           "id:3": 107,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -152,
-          "y:3": 104
+          "x:3": -176,
+          "y:3": 164
         },
         "43:10": {
           "id:3": 112,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -104,
-          "y:3": 104
+          "x:3": -140,
+          "y:3": 164
         },
         "44:10": {
           "id:3": 126,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -152,
-          "y:3": 340
+          "x:3": -228,
+          "y:3": 448
         },
         "45:10": {
           "id:3": 129,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -384,
-          "y:3": 88
+          "x:3": -448,
+          "y:3": 16
         },
         "46:10": {
           "id:3": 130,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -596,
-          "y:3": 340
+          "x:3": -520,
+          "y:3": 280
         },
         "47:10": {
           "id:3": 131,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -404,
-          "y:3": 432
+          "x:3": -228,
+          "y:3": 512
         },
         "48:10": {
           "id:3": 132,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -360,
-          "y:3": 496
+          "x:3": -372,
+          "y:3": 628
         },
         "49:10": {
           "id:3": 133,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -532,
-          "y:3": 428
+          "x:3": -452,
+          "y:3": 512
         },
         "50:10": {
           "id:3": 134,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -472,
-          "y:3": 432
+          "x:3": -272,
+          "y:3": 512
         },
         "51:10": {
           "id:3": 135,
           "sizeX:3": 40,
           "sizeY:3": 40,
-          "x:3": -536,
-          "y:3": 488
+          "x:3": -380,
+          "y:3": 508
         },
         "52:10": {
           "id:3": 154,
           "sizeX:3": 40,
           "sizeY:3": 40,
-          "x:3": -368,
-          "y:3": 540
+          "x:3": -424,
+          "y:3": 620
         },
         "53:10": {
           "id:3": 164,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -324,
-          "y:3": 224
+          "x:3": -228,
+          "y:3": 244
         },
         "54:10": {
           "id:3": 165,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -324,
-          "y:3": 264
+          "x:3": -176,
+          "y:3": 244
         },
         "55:10": {
           "id:3": 168,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -292,
+          "x:3": -276,
           "y:3": 244
         },
         "56:10": {
           "id:3": 184,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -364,
-          "y:3": 188
+          "x:3": -140,
+          "y:3": 208
         },
         "57:10": {
           "id:3": 187,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": -254,
-          "y:3": 14
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": -408,
+          "y:3": -60
         },
         "58:10": {
           "id:3": 203,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -404,
-          "y:3": 496
+          "x:3": -372,
+          "y:3": 556
         },
         "59:10": {
           "id:3": 213,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -204,
-          "y:3": 468
+          "x:3": -336,
+          "y:3": 572
         },
         "60:10": {
           "id:3": 227,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -152,
-          "y:3": -16
+          "x:3": -388,
+          "y:3": 52
         },
         "61:10": {
           "id:3": 233,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -156,
-          "y:3": 136
+          "x:3": -144,
+          "y:3": 128
         },
         "62:10": {
           "id:3": 236,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -472,
-          "y:3": 284
+          "x:3": -228,
+          "y:3": 324
         },
         "63:10": {
           "id:3": 237,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -104,
-          "y:3": 140
+          "y:3": 164
         },
         "64:10": {
           "id:3": 319,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -640,
-          "y:3": 312
+          "x:3": -392,
+          "y:3": 176
         },
         "65:10": {
           "id:3": 338,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -192,
-          "y:3": 360
+          "x:3": -284,
+          "y:3": 404
         },
         "66:10": {
           "id:3": 398,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": -582,
-          "y:3": 222
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": -488,
+          "y:3": 364
         },
         "67:10": {
           "id:3": 502,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -472,
-          "y:3": 388
+          "x:3": -448,
+          "y:3": 480
         },
         "68:10": {
           "id:3": 504,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -444,
-          "y:3": 264
+          "x:3": -68,
+          "y:3": 244
         },
         "69:10": {
           "id:3": 505,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -404,
-          "y:3": 264
+          "x:3": -104,
+          "y:3": 284
         },
         "70:10": {
           "id:3": 507,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -360,
-          "y:3": 416
+          "x:3": -180,
+          "y:3": 512
         },
         "71:10": {
           "id:3": 509,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -248,
-          "y:3": -16
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": -36,
+          "y:3": -24
         },
         "72:10": {
           "id:3": 540,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -424,
-          "y:3": 48
+          "x:3": 24,
+          "y:3": 104
         },
         "73:10": {
           "id:3": 541,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -640,
-          "y:3": 356
+          "x:3": -392,
+          "y:3": 220
         },
         "74:10": {
           "id:3": 546,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -404,
-          "y:3": 188
+          "x:3": -104,
+          "y:3": 208
         },
         "75:10": {
           "id:3": 549,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -292,
-          "y:3": 68
+          "x:3": -276,
+          "y:3": 176
         },
         "76:10": {
           "id:3": 609,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -640,
-          "y:3": 224
+          "x:3": -392,
+          "y:3": 132
         },
         "77:10": {
           "id:3": 727,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -384,
-          "y:3": 20
+          "x:3": -360,
+          "y:3": 16
         },
         "78:10": {
           "id:3": 728,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -112,
-          "y:3": 20
+          "x:3": -420,
+          "y:3": 92
         },
         "79:10": {
           "id:3": 730,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -152,
-          "y:3": 20
+          "x:3": -388,
+          "y:3": 92
         },
         "80:10": {
           "id:3": 731,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -192,
-          "y:3": 20
+          "x:3": -356,
+          "y:3": 92
         },
         "81:10": {
           "id:3": 747,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -152,
-          "y:3": 68
+          "x:3": -228,
+          "y:3": 36
         },
         "82:10": {
           "id:3": 790,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -696,
-          "y:3": 20
+          "x:3": -124,
+          "y:3": 16
         },
         "83:10": {
           "id:3": 801,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -312,
-          "y:3": 548
+          "x:3": -484,
+          "y:3": 628
         },
         "84:10": {
           "id:3": 810,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -292,
-          "y:3": 140
+          "x:3": -276,
+          "y:3": 208
         },
         "85:10": {
           "id:3": 812,
           "sizeX:3": 0,
           "sizeY:3": 0,
-          "x:3": -392,
-          "y:3": 352
+          "x:3": -216,
+          "y:3": 296
         },
         "86:10": {
           "id:3": 816,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -616,
-          "y:3": 128
+          "x:3": -44,
+          "y:3": 312
         },
         "87:10": {
           "id:3": 818,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -652,
-          "y:3": 68
+          "x:3": 8,
+          "y:3": 276
         },
         "88:10": {
           "id:3": 820,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -604,
-          "y:3": 20
+          "x:3": -164,
+          "y:3": 16
         },
         "89:10": {
           "id:3": 821,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -464,
-          "y:3": -17
+          "x:3": 24,
+          "y:3": 44
         },
         "90:10": {
           "id:3": 822,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -528,
-          "y:3": 68
+          "x:3": -32,
+          "y:3": 72
         },
         "91:10": {
           "id:3": 823,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -384,
-          "y:3": 48
+          "x:3": -404,
+          "y:3": 16
         },
         "92:10": {
           "id:3": 824,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -404,
-          "y:3": 464
+          "x:3": -228,
+          "y:3": 556
         },
         "93:10": {
           "id:3": 830,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -156,
-          "y:3": 292
+          "x:3": -184,
+          "y:3": 444
         },
         "94:10": {
           "id:3": 831,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -200,
-          "y:3": 296
+          "x:3": -136,
+          "y:3": 448
         },
         "95:10": {
           "id:3": 832,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -104,
-          "y:3": 296
+          "x:3": -136,
+          "y:3": 480
         },
         "96:10": {
           "id:3": 833,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -104,
-          "y:3": 340
+          "x:3": -136,
+          "y:3": 404
         },
         "97:10": {
           "id:3": 834,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -360,
-          "y:3": 388
+          "x:3": -180,
+          "y:3": 480
         },
         "98:10": {
           "id:3": 835,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -288,
-          "y:3": 288
+          "x:3": -268,
+          "y:3": 364
         },
         "99:10": {
           "id:3": 836,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -336,
-          "y:3": 104
+          "x:3": -276,
+          "y:3": 120
         },
         "100:10": {
           "id:3": 837,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -292,
-          "y:3": 104
+          "x:3": -276,
+          "y:3": 148
         },
         "101:10": {
           "id:3": 886,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -552,
-          "y:3": 268
+          "y:3": 368
         },
         "102:10": {
           "id:3": 887,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -364,
+          "x:3": -140,
           "y:3": 264
         },
         "103:10": {
           "id:3": 894,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -472,
-          "y:3": 340
+          "x:3": -448,
+          "y:3": 324
         },
         "104:10": {
           "id:3": 895,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -472,
-          "y:3": 188
+          "x:3": -388,
+          "y:3": 324
         },
         "105:10": {
           "id:3": 896,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -104,
-          "y:3": 256
+          "x:3": -180,
+          "y:3": 372
         },
         "106:10": {
           "id:3": 897,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -152,
-          "y:3": 256
+          "x:3": -180,
+          "y:3": 404
+        },
+        "107:10": {
+          "id:3": 929,
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": 48,
+          "y:3": 272
         }
       }
     },
@@ -50325,7 +50894,7 @@
           "id:3": 65,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -560,
+          "x:3": -564,
           "y:3": 216
         },
         "4:10": {
@@ -50613,7 +51182,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -636,
-          "y:3": 88
+          "y:3": 72
         },
         "45:10": {
           "id:3": 194,
@@ -50675,7 +51244,7 @@
           "id:3": 246,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -548,
+          "x:3": -552,
           "y:3": 180
         },
         "54:10": {
@@ -50703,7 +51272,7 @@
           "id:3": 255,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -548,
+          "x:3": -552,
           "y:3": 144
         },
         "58:10": {
@@ -50871,15 +51440,15 @@
           "id:3": 341,
           "sizeX:3": 20,
           "sizeY:3": 20,
-          "x:3": -380,
-          "y:3": 184
+          "x:3": -388,
+          "y:3": 260
         },
         "82:10": {
           "id:3": 344,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -510,
-          "y:3": 174
+          "x:3": -522,
+          "y:3": 168
         },
         "83:10": {
           "id:3": 347,
@@ -50962,15 +51531,15 @@
           "id:3": 549,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -520,
-          "y:3": 368
+          "x:3": -528,
+          "y:3": 414
         },
         "95:10": {
           "id:3": 551,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -492,
-          "y:3": 204
+          "x:3": -504,
+          "y:3": 198
         },
         "96:10": {
           "id:3": 555,
@@ -50983,346 +51552,339 @@
           "id:3": 580,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -460,
-          "y:3": 368
+          "x:3": -468,
+          "y:3": 414
         },
         "98:10": {
-          "id:3": 610,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -192,
-          "y:3": 168
-        },
-        "99:10": {
           "id:3": 611,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": 168
         },
-        "100:10": {
+        "99:10": {
           "id:3": 669,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -204,
+          "x:3": -192,
           "y:3": 276
         },
-        "101:10": {
+        "100:10": {
           "id:3": 671,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": 276
+          "x:3": -120,
+          "y:3": 240
+        },
+        "101:10": {
+          "id:3": 672,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -192,
+          "y:3": 240
         },
         "102:10": {
-          "id:3": 672,
+          "id:3": 673,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -120,
+          "y:3": 276
+        },
+        "103:10": {
+          "id:3": 674,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": 276
         },
-        "103:10": {
-          "id:3": 673,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": 312
-        },
         "104:10": {
-          "id:3": 674,
+          "id:3": 675,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": 312
         },
         "105:10": {
-          "id:3": 675,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -204,
-          "y:3": 312
-        },
-        "106:10": {
           "id:3": 676,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -204,
-          "y:3": 348
-        },
-        "107:10": {
-          "id:3": 677,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": 348
-        },
-        "108:10": {
-          "id:3": 678,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -204,
-          "y:3": 396
-        },
-        "109:10": {
-          "id:3": 679,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": 348
         },
-        "110:10": {
+        "106:10": {
+          "id:3": 677,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -120,
+          "y:3": 312
+        },
+        "107:10": {
+          "id:3": 678,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -192,
+          "y:3": 348
+        },
+        "108:10": {
+          "id:3": 679,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -120,
+          "y:3": 348
+        },
+        "109:10": {
           "id:3": 680,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -168,
           "y:3": 384
         },
-        "111:10": {
+        "110:10": {
           "id:3": 690,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -420,
           "y:3": 276
         },
-        "112:10": {
+        "111:10": {
           "id:3": 693,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -492,
           "y:3": 276
         },
-        "113:10": {
+        "112:10": {
           "id:3": 694,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -524,
+          "x:3": -528,
           "y:3": 276
         },
-        "114:10": {
+        "113:10": {
           "id:3": 732,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": 168
         },
-        "115:10": {
+        "114:10": {
           "id:3": 745,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -252,
           "y:3": 240
         },
-        "116:10": {
+        "115:10": {
           "id:3": 746,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -876,
           "y:3": 216
         },
-        "117:10": {
+        "116:10": {
           "id:3": 748,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -876,
           "y:3": 252
         },
-        "118:10": {
+        "117:10": {
           "id:3": 751,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -876,
           "y:3": 180
         },
-        "119:10": {
+        "118:10": {
           "id:3": 773,
           "sizeX:3": 0,
           "sizeY:3": 0,
           "x:3": -144,
           "y:3": 84
         },
-        "120:10": {
+        "119:10": {
           "id:3": 783,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -340,
-          "y:3": 368
+          "x:3": -348,
+          "y:3": 414
+        },
+        "120:10": {
+          "id:3": 785,
+          "sizeX:3": 22,
+          "sizeY:3": 22,
+          "x:3": -390,
+          "y:3": 222
         },
         "121:10": {
-          "id:3": 785,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -420,
-          "y:3": 180
-        },
-        "122:10": {
           "id:3": 798,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -252,
-          "y:3": 348
+          "x:3": -192,
+          "y:3": 312
         },
-        "123:10": {
+        "122:10": {
           "id:3": 799,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -252,
           "y:3": 276
         },
-        "124:10": {
+        "123:10": {
           "id:3": 800,
           "sizeX:3": 0,
           "sizeY:3": 0,
           "x:3": -264,
           "y:3": 84
         },
-        "125:10": {
+        "124:10": {
           "id:3": 806,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -56,
           "y:3": 108
         },
-        "126:10": {
+        "125:10": {
           "id:3": 807,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -276,
           "y:3": 40
         },
-        "127:10": {
+        "126:10": {
           "id:3": 825,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -684,
           "y:3": -100
         },
-        "128:10": {
+        "127:10": {
           "id:3": 826,
           "sizeX:3": 40,
           "sizeY:3": 40,
           "x:3": -64,
           "y:3": -108
         },
-        "129:10": {
+        "128:10": {
           "id:3": 827,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -258,
           "y:3": -79
         },
-        "130:10": {
+        "129:10": {
           "id:3": 828,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -384,
+          "x:3": -364,
           "y:3": 236
         },
-        "131:10": {
+        "130:10": {
           "id:3": 835,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": -48
         },
-        "132:10": {
+        "131:10": {
           "id:3": 838,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -600,
           "y:3": 156
         },
-        "133:10": {
+        "132:10": {
           "id:3": 841,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -324,
           "y:3": 312
         },
-        "134:10": {
+        "133:10": {
           "id:3": 849,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -380,
+          "x:3": -360,
           "y:3": 276
         },
-        "135:10": {
+        "134:10": {
           "id:3": 850,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -384,
+          "x:3": -364,
           "y:3": 308
         },
-        "136:10": {
+        "135:10": {
           "id:3": 851,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -324,
           "y:3": 276
         },
-        "137:10": {
+        "136:10": {
           "id:3": 852,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -56,
-          "y:3": 348
+          "x:3": -84,
+          "y:3": 312
         },
-        "138:10": {
+        "137:10": {
           "id:3": 857,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -720,
-          "y:3": 312
+          "y:3": 342
+        },
+        "138:10": {
+          "id:3": 858,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -558,
+          "y:3": 336
         },
         "139:10": {
-          "id:3": 858,
-          "sizeX:3": 32,
-          "sizeY:3": 32,
-          "x:3": -552,
-          "y:3": 308
+          "id:3": 859,
+          "sizeX:3": 72,
+          "sizeY:3": 72,
+          "x:3": -444,
+          "y:3": 318
         },
         "140:10": {
-          "id:3": 859,
-          "sizeX:3": 32,
-          "sizeY:3": 32,
-          "x:3": -424,
-          "y:3": 308
-        },
-        "141:10": {
           "id:3": 888,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -56,
           "y:3": 72
         },
-        "142:10": {
+        "141:10": {
           "id:3": 892,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -400,
-          "y:3": 368
+          "x:3": -408,
+          "y:3": 414
         },
-        "143:10": {
+        "142:10": {
           "id:3": 899,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -864,
           "y:3": -100
         },
-        "144:10": {
+        "143:10": {
           "id:3": 900,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -108,
           "y:3": 68
         },
-        "145:10": {
+        "144:10": {
           "id:3": 912,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -474,
-          "y:3": 174
+          "x:3": -486,
+          "y:3": 168
         },
-        "146:10": {
+        "145:10": {
           "id:3": 921,
           "sizeX:3": 48,
           "sizeY:3": 48,
@@ -51867,10 +52429,10 @@
         },
         "73:10": {
           "id:3": 556,
-          "sizeX:3": 35,
-          "sizeY:3": 30,
-          "x:3": 359,
-          "y:3": 163
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 448,
+          "y:3": 180
         },
         "74:10": {
           "id:3": 605,
@@ -52039,6 +52601,20 @@
           "sizeY:3": 24,
           "x:3": 288,
           "y:3": 312
+        },
+        "98:10": {
+          "id:3": 920,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 448,
+          "y:3": 332
+        },
+        "99:10": {
+          "id:3": 931,
+          "sizeX:3": 28,
+          "sizeY:3": 28,
+          "x:3": 452,
+          "y:3": 240
         }
       }
     },
@@ -52163,7 +52739,7 @@
           "id:3": 244,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -12,
+          "x:3": -18,
           "y:3": 384
         },
         "15:10": {
@@ -52210,10 +52786,10 @@
         },
         "21:10": {
           "id:3": 258,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": 312
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 66,
+          "y:3": 318
         },
         "22:10": {
           "id:3": 263,
@@ -52261,7 +52837,7 @@
           "id:3": 271,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -12,
+          "x:3": 72,
           "y:3": 432
         },
         "29:10": {
@@ -52269,7 +52845,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
-          "y:3": 312
+          "y:3": 324
         },
         "30:10": {
           "id:3": 279,
@@ -52381,7 +52957,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
-          "y:3": 312
+          "y:3": 330
         },
         "46:10": {
           "id:3": 323,
@@ -52429,7 +53005,7 @@
           "id:3": 331,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 168,
+          "x:3": 216,
           "y:3": 420
         },
         "53:10": {
@@ -52492,8 +53068,8 @@
           "id:3": 351,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 60,
-          "y:3": 312
+          "x:3": -24,
+          "y:3": 300
         },
         "62:10": {
           "id:3": 389,
@@ -52639,8 +53215,8 @@
           "id:3": 607,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 168,
-          "y:3": 336
+          "x:3": 216,
+          "y:3": 342
         },
         "83:10": {
           "id:3": 608,
@@ -52695,15 +53271,15 @@
           "id:3": 756,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 60,
-          "y:3": 348
+          "x:3": 186,
+          "y:3": 384
         },
         "91:10": {
           "id:3": 776,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": 348
+          "x:3": 72,
+          "y:3": 384
         },
         "92:10": {
           "id:3": 778,
@@ -52793,8 +53369,8 @@
           "id:3": 839,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -360,
-          "y:3": 204
+          "x:3": -432,
+          "y:3": 160
         },
         "105:10": {
           "id:3": 840,
@@ -52884,22 +53460,22 @@
           "id:3": 855,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 220,
-          "y:3": 348
+          "x:3": 228,
+          "y:3": 306
         },
         "118:10": {
           "id:3": 856,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 220,
-          "y:3": 384
+          "x:3": 264,
+          "y:3": 306
         },
         "119:10": {
           "id:3": 861,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 140,
-          "y:3": 348
+          "x:3": 186,
+          "y:3": 354
         },
         "120:10": {
           "id:3": 881,
@@ -52913,14 +53489,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -360,
-          "y:3": 244
+          "y:3": 204
         },
         "122:10": {
           "id:3": 905,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -360,
-          "y:3": 288
+          "y:3": 244
         },
         "123:10": {
           "id:3": 906,
@@ -52945,10 +53521,10 @@
         },
         "126:10": {
           "id:3": 920,
-          "sizeX:3": 32,
-          "sizeY:3": 32,
-          "x:3": 56,
-          "y:3": 380
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 114,
+          "y:3": 318
         },
         "127:10": {
           "id:3": 925,
@@ -53143,8 +53719,8 @@
           "id:3": 508,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -540,
-          "y:3": 72
+          "x:3": -612,
+          "y:3": 180
         },
         "24:10": {
           "id:3": 513,
@@ -53157,7 +53733,7 @@
           "id:3": 543,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -468,
+          "x:3": -540,
           "y:3": 72
         },
         "26:10": {
@@ -53178,21 +53754,21 @@
           "id:3": 583,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -540,
+          "x:3": -504,
           "y:3": 108
         },
         "29:10": {
           "id:3": 584,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -504,
+          "x:3": -468,
           "y:3": 108
         },
         "30:10": {
           "id:3": 585,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -468,
+          "x:3": -540,
           "y:3": 108
         },
         "31:10": {
@@ -53290,8 +53866,8 @@
           "id:3": 600,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -612,
-          "y:3": 180
+          "x:3": -468,
+          "y:3": 72
         },
         "45:10": {
           "id:3": 601,
@@ -53941,8 +54517,8 @@
           "id:3": 7,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": 248
+          "x:3": 32,
+          "y:3": 256
         },
         "5:10": {
           "id:3": 9,
@@ -53955,7 +54531,7 @@
           "id:3": 11,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 72,
+          "x:3": 32,
           "y:3": 288
         },
         "7:10": {
@@ -54019,7 +54595,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
-          "y:3": 248
+          "y:3": 256
         },
         "16:10": {
           "id:3": 25,
@@ -54032,15 +54608,15 @@
           "id:3": 37,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 120,
-          "y:3": 248
+          "x:3": 76,
+          "y:3": 256
         },
         "18:10": {
           "id:3": 38,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
-          "y:3": 354
+          "y:3": 324
         },
         "19:10": {
           "id:3": 40,
@@ -54060,29 +54636,29 @@
           "id:3": 56,
           "sizeX:3": 72,
           "sizeY:3": 72,
-          "x:3": -36,
-          "y:3": 468
+          "x:3": -38,
+          "y:3": 438
         },
         "22:10": {
           "id:3": 58,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -90,
-          "y:3": 354
+          "x:3": -92,
+          "y:3": 324
         },
         "23:10": {
           "id:3": 66,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
-          "y:3": 248
+          "y:3": 256
         },
         "24:10": {
           "id:3": 141,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -40,
-          "y:3": 200
+          "x:3": -12,
+          "y:3": 184
         },
         "25:10": {
           "id:3": 266,
@@ -54130,8 +54706,8 @@
           "id:3": 394,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -54,
-          "y:3": 392
+          "x:3": -56,
+          "y:3": 362
         },
         "32:10": {
           "id:3": 401,
@@ -54151,15 +54727,15 @@
           "id:3": 409,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": 392
+          "x:3": -14,
+          "y:3": 362
         },
         "35:10": {
           "id:3": 415,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -90,
-          "y:3": 432
+          "x:3": -92,
+          "y:3": 402
         },
         "36:10": {
           "id:3": 488,
@@ -54179,8 +54755,8 @@
           "id:3": 495,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 120,
-          "y:3": 320
+          "x:3": 76,
+          "y:3": 324
         },
         "39:10": {
           "id:3": 496,
@@ -54193,29 +54769,29 @@
           "id:3": 530,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": 320
+          "x:3": 32,
+          "y:3": 324
         },
         "41:10": {
           "id:3": 552,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -90,
-          "y:3": 392
+          "x:3": -92,
+          "y:3": 362
         },
         "42:10": {
           "id:3": 558,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
-          "y:3": 248
+          "y:3": 256
         },
         "43:10": {
           "id:3": 670,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 16,
-          "y:3": 200
+          "x:3": -12,
+          "y:3": 220
         },
         "44:10": {
           "id:3": 687,
@@ -54242,15 +54818,15 @@
           "id:3": 755,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -54,
-          "y:3": 432
+          "x:3": -56,
+          "y:3": 402
         },
         "48:10": {
           "id:3": 780,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 120,
-          "y:3": 200
+          "x:3": 76,
+          "y:3": 220
         },
         "49:10": {
           "id:3": 786,
@@ -54284,8 +54860,8 @@
           "id:3": 817,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": 200
+          "x:3": -44,
+          "y:3": 220
         },
         "54:10": {
           "id:3": 902,
@@ -54298,15 +54874,15 @@
           "id:3": 909,
           "sizeX:3": 40,
           "sizeY:3": 40,
-          "x:3": 64,
-          "y:3": 192
+          "x:3": 24,
+          "y:3": 212
         },
         "56:10": {
           "id:3": 911,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -54,
-          "y:3": 354
+          "x:3": -56,
+          "y:3": 324
         },
         "57:10": {
           "id:3": 913,
@@ -54320,6 +54896,20 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -228,
+          "y:3": 132
+        },
+        "59:10": {
+          "id:3": 927,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -132,
+          "y:3": 24
+        },
+        "60:10": {
+          "id:3": 932,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -192,
           "y:3": 132
         }
       }
@@ -54767,7 +55357,7 @@
           "id:3": 195,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 92,
+          "x:3": 128,
           "y:3": 0
         },
         "1:10": {
@@ -54775,7 +55365,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 56,
-          "y:3": 0
+          "y:3": 36
         },
         "2:10": {
           "id:3": 258,
@@ -54851,29 +55441,29 @@
           "id:3": 852,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 56,
+          "x:3": 76,
           "y:3": -36
         },
         "13:10": {
           "id:3": 854,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 56,
+          "x:3": 18,
           "y:3": 36
         },
         "14:10": {
           "id:3": 885,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 18,
-          "y:3": 36
+          "x:3": 56,
+          "y:3": 0
         },
         "15:10": {
-          "id:3": 908,
-          "sizeX:3": 0,
-          "sizeY:3": 0,
-          "x:3": 66,
-          "y:3": 12
+          "id:3": 928,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 92,
+          "y:3": 0
         }
       }
     },
@@ -54949,8 +55539,8 @@
           "id:3": 96,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 102,
-          "y:3": 552
+          "x:3": 60,
+          "y:3": 588
         },
         "8:10": {
           "id:3": 100,
@@ -54985,7 +55575,7 @@
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 96,
-          "y:3": 594
+          "y:3": 624
         },
         "13:10": {
           "id:3": 105,
@@ -54999,7 +55589,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -48,
-          "y:3": 600
+          "y:3": 630
         },
         "15:10": {
           "id:3": 108,
@@ -55013,7 +55603,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
-          "y:3": 600
+          "y:3": 588
         },
         "17:10": {
           "id:3": 110,
@@ -55076,7 +55666,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
-          "y:3": 600
+          "y:3": 588
         },
         "26:10": {
           "id:3": 132,
@@ -55125,21 +55715,21 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
-          "y:3": 696
+          "y:3": 726
         },
         "33:10": {
           "id:3": 406,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
-          "y:3": 696
+          "y:3": 726
         },
         "34:10": {
           "id:3": 408,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
-          "y:3": 648
+          "y:3": 678
         },
         "35:10": {
           "id:3": 494,
@@ -55160,7 +55750,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 186,
-          "y:3": 648
+          "y:3": 678
         },
         "38:10": {
           "id:3": 784,
@@ -55174,21 +55764,21 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
-          "y:3": 648
+          "y:3": 678
         },
         "40:10": {
           "id:3": 811,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -48,
-          "y:3": 648
+          "y:3": 678
         },
         "41:10": {
           "id:3": 829,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 186,
-          "y:3": 600
+          "y:3": 588
         },
         "42:10": {
           "id:3": 915,
@@ -55230,7 +55820,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 102,
-          "y:3": 648
+          "y:3": 678
+        },
+        "48:10": {
+          "id:3": 930,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 102,
+          "y:3": 552
         }
       }
     }
