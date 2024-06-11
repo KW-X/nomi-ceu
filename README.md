@@ -1,58 +1,43 @@
-# nomi-ceu
-[![Curseforge](http://cf.way2muchnoise.eu/full_594351_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/nomi-ceu) [![Curseforge](http://cf.way2muchnoise.eu/versions/For%20MC_557242_all.svg)](https://www.curseforge.com/minecraft/modpacks/nomi-ceu) [![Discord](https://img.shields.io/discord/927050775073534012.svg?colorB=7289DA&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAABWAgMAAABnZYq0AAAACVBMVEUAAB38%2FPz%2F%2F%2F%2Bm8P%2F9AAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfhBxwQJhxy2iqrAAABoElEQVRIx7WWzdGEIAyGgcMeKMESrMJ6rILZCiiBg4eYKr%2Fd1ZAfgXFm98sJfAyGNwno3G9sLucgYGpQ4OGVRxQTREMDZjF7ILSWjoiHo1n%2BE03Aw8p7CNY5IhkYd%2F%2F6MtO3f8BNhR1QWnarCH4tr6myl0cWgUVNcfMcXACP1hKrGMt8wcAyxide7Ymcgqale7hN6846uJCkQxw6GG7h2MH4Czz3cLqD1zHu0VOXMfZjHLoYvsdd0Q7ZvsOkafJ1P4QXxrWFd14wMc60h8JKCbyQvImzlFjyGoZTKzohwWR2UzSONHhYXBQOaKKsySsahwGGDnb%2FiYPJw22sCqzirSULYy1qtHhXGbtgrM0oagBV4XiTJok3GoLoDNH8ooTmBm7ZMsbpFzi2bgPGoXWXME6XT%2BRJ4GLddxJ4PpQy7tmfoU2HPN6cKg%2BledKHBKlF8oNSt5w5g5o8eXhu1IOlpl5kGerDxIVT%2BztzKepulD8utXqpChamkzzuo7xYGk%2FkpSYuviLXun5bzdRf0Krejzqyz7Z3p0I1v2d6HmA07dofmS48njAiuMgAAAAASUVORK5CYII%3D)](https://discord.com/invite/zwQzqP8b6q)
+# Server Information File
 
-Port of [Nomifactory](https://github.com/Nomifactory/Nomifactory) 1.3 to the [GregTech CE Unofficial](https://github.com/GregTechCEu/GregTech) generation of GT mods, with updated quests, progression and minor balance changes to adapt to CEu's changes.  
-- Overhauled circuit progression closely following CEu stock   
-- Multiblock versions of nearly all machines, including EBF, Freezer and DT, processing up to 256 recipes in parallel  
-- New processing chains for Naquadah, Advanced SMDs, Crystal Chips, and more  
-- Fixed lots of unpleasant CE-ness - fixed infinite Amp bug, different ore stone types don't clog up your inventory, etc.   
-- Super-performant emissive effects on machines, coil blocks, the Fusion Reactor, and more  
-- Updated questbook to guide you through all the new stuff, including a completely new chapter, the Processing Lines Tab, to give you more info, useful tips and a visual representation of different processing lines, both new and old  
-- lots more...   
+## Table Of Contents
+This server information file is split into two parts:
+- Server Setup (Only important for those hosting locally)
+- Server Admin Information (Important regardless of your hosting method)
 
-## Mod compatibility info
-nomi-ceu comes with compatibility scripts for the following mods. You can drop them into the mods folder and their recipes will be adjusted accordingly.  
-- [AE2 Fluid Crafting Rework](https://www.curseforge.com/minecraft/mc-mods/ae2-fluid-crafting-rework)  
-- [Compact Machines](https://www.curseforge.com/minecraft/mc-mods/compact-machines)  
-- [Flux Networks](https://www.curseforge.com/minecraft/mc-mods/flux-networks)  
-- [Lazy AE2](https://www.curseforge.com/minecraft/mc-mods/lazy-ae2)  
-- [Project Red - Illumination](https://www.curseforge.com/minecraft/mc-mods/project-red-illumination)    
+## Server Setup (In v1.6, hosting a server locally, on GNU/Linux, is broken. Please update to a newer version.)
+### Downloading the Server
+- Download the latest server zip file from [GitHub](https://github.com/Nomi-CEu/nomi-ceu/releases) or [CurseForge](https://www.curseforge.com/minecraft/modpacks/nomi-ceu/files).
+- Extract it.
 
-\* Note: If you are adding these mods via the CurseForge app, remove the copy of non-Extended Life AE2 it might automatically download.
+### Launching The Server
+- Run the `launch.bat` script (Windows) or the `launch.sh` script (Apple/GNU/Linux) to launch the server. These two scripts are called the **launchscripts**.
+- The first time you do this, the server will crash. To fix this, open the `eula.txt` file, and change the value from false to true.
 
-## Hard mode info
-If you want a harder, or perhaps a more "true" GregTech experience, check out the Expert mode. This pack mode is based on the [Self-Torture Edition fork](https://github.com/NotMyWing/Omnifactory-Self-Torture-Edition) of the original pack. Highlights include:
+### Server Options
+- You can set your server RAM by changing the options in the launchscript. These are lines ***16 and 17*** for both launchscripts.
+- You can enable the MC Server GUI by removing `nogui` in the launchscript. This is done in line ***20*** for both launchscripts.
+- There are many options of which you can change in your `server.properties` file, such as changing the description (change the `motd` value).
+- You can change the server icon by replacing the `server-icon.png` file. Note that the icon must be ***64 by 64***.
 
-- No DME for easy infinite resources   
-- Nomicoins can't be spent  
-- The Steam Age  
-- No Creative Tank; instead...  
-- Stabilized Micro Miners for late-game infinite resources  
-- Harder recipes for assorted things like Iridium, Graphene, Numismatic Dynamos, and more  
+### Other
+- If you wish to play on your server outside of your network, you will need to setup port-forwarding. That is out of the scope of this file, and you should be aware of the risks that are created when you do this. 
 
-Installation instructions:
-- Install the hardmode config files from [here](https://github.com/tracer4b/nomi-ceu/tree/main/overrides). Restart the pack for this to take effect. 
-  - Windows users may grab the utility [here](https://raw.githubusercontent.com/tracer4b/nomi-ceu/main/pack-mode-switcher.bat)(right click - save as), save it to the root directory of the pack (the same level as `\config`).   
-  - MacOS and GNU/Linux users can run `curl -O https://raw.githubusercontent.com/tracer4b/nomi-ceu/main/pack-mode-switcher.sh` then verify the contents with your editor of choice before running `chmod +x pack-mode-switcher.sh; sh pack-mode-switcher.sh` in the pack root directory (the one containing `/config`).
-- If you are on an existing world, run `/bq_admin default load` to load the hard mode questbook.
+## Server Admin Information
+### Island Cakes (available in versions 1.6.1-beta-4+)
+There are Island Cakes available, which sends each team to a different void island. To set this up:
+- Setup a way for players to go to their islands. The recommend way to do this is:
+   - Setup a kind of hub, where players can teleport to their islands. You can do this in the void, in admin-claimed chunks.
+   - Place two island cakes. These cannot be crafted, simply grab them from JEI, or the creative mode menu.
+   - Turn one into a personal island cake, by right clicking it with a diamond.
+   
+#### How They Work + Options
+Island Cakes and Personal Island Cakes do not get eaten. If you wish to make them be eaten, and be slowly consumed similar to Overworld, Void, Nether and End Cakes, change line ***332***, in `/config/DimensionalEdibles.cfg`, from `B:consumesFuel=false` to `B:consumesFuel=true`. To refill them, Pulsating Dust is used.
 
-## Bansoukou
-This pack uses three bansoukou patches. 
-The first one is for [NuclearCraft](https://github.com/tomdodd4598/NuclearCraft/tree/1.12.2), the second one is for [Draconic Evolution](https://github.com/Draconic-Inc/Draconic-Evolution/tree/1.12.2), and the third one is for [GregTech](https://github.com/GregTechCEu/GregTech).
+Island Cakes send each FTB Team to a unique island. A player simply right-clicks the cake and will be sent to their team's island. If no such island exists, an island will first be created.
 
-The three patch repos are:
-- [NuclearCraft](https://github.com/Exaxxion/NuclearCraft/tree/2.18y-ceu). This fixes GTCEu incompatability with NuclearCraft.
-- [Draconic Evolution](https://github.com/IntegerLimit/Draconic-Evolution). This adds the destruct core button, and allows GT blocks in place of DE blocks, in the Energy Core and Reactor.
-- [Gregtech](https://github.com/IntegerLimit/GregTech/tree/remove-small-storage-cover). This fixes the incompatibility between latest GregTech and latest ULV covers. This patch is to be removed when this incompatibility is fixed in a future GT update.
+In contrast, Personal Island Cakes sends each individual to a seperate island. This is useful for individuals who want some personal space, apart from their team.
 
-If there are issues or crashes with Draconic Evolution, please report them to [here](https://github.com/IntegerLimit/Draconic-Evolution/issues) instead of the main Draconic Evolution repo.
+By default, Islands will be 60 Regions apart, placed in a spiral. Regions are an area of 32 by 32 chunks. You can change the spacing by changing the number value in line ***343***, in `/config/DimensionalEdibles.cfg`, to any value between 2 and 100. Note that this value is in Regions.
 
-## Credits
-Original pack by [Exaxxion](https://github.com/Exaxxion).  
-Certain new quests from [GregTech Community Pack](https://github.com/GregTechCEu/GregTech-Community-Pack).  
-GTCE item-ID to GTCEu item-ID conversion scripts by [brachy84](https://github.com/brachy84).   
-Perfect Gem textures from [FurfSky Reborn](http://furfsky.net/). ([Permission](https://ibb.co/bBpksq0) at [this message](https://discord.com/channels/771187253937438762/774353150278369351/938438074503942184) in [FurfSky Reborn server](https://discord.gg/fsr)).  
-Certain hard mode recipe chains and Magnetron texture from [GCY Science](https://github.com/GregTechCEu/gregicality-science).  
-Stabilized miner textures from [Self-Torture Edition](https://github.com/NotMyWing/Omnifactory-Self-Torture-Edition).  
-Flux Networks compatibility recipes from [smudgerox](https://github.com/smudgerox).  
-Thank you!
+In line ***338***, you can change the dimension the Islands are spawned in. You may have to play around. To get a list of all dimensions, do `/forge dimensions` to get a list of all dimensions and their IDs. You can also change the y level the islands are spawned at, in line ***354***.
