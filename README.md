@@ -1,4 +1,4 @@
-# nomi-ceu 1.6
+# nomi-ceu 1.7
 
 下載為 ZIP 後整包拖到 MultiMC 即可  
   

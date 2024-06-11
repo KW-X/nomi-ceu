@@ -1,13 +1,5 @@
 #packmode normal
 #modloaded deepmoblearning
-import mods.gregtech.multiblock.Builder;
-import mods.gregtech.multiblock.FactoryBlockPattern;
-import mods.gregtech.multiblock.RelativeDirection;
-import mods.gregtech.multiblock.functions.IPatternBuilderFunction;
-import mods.gregtech.IControllerTile;
-import mods.gregtech.multiblock.CTPredicate;
-import mods.gregtech.multiblock.IBlockPattern;
-import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.recipe.RecipeMap;
 
 import crafttweaker.data.IData;
@@ -76,90 +68,18 @@ val pristine_prefix = "deepmoblearning:pristine_matter_";
 //    500
 //];
 
-val name as string = "dml_sim_chamber";
-
-val dml_sim_chamber = Builder.start("dml_sim_chamber", 3100)
-    .withPattern(function(controller as IControllerTile) as IBlockPattern {
-        return FactoryBlockPattern.start()
-            .aisle(
-                "CCCCC", 
-                "DEEED", 
-                "DEEED", 
-                "DEEED", 
-                "CCCCC"
-            )
-            .aisle(
-                "CCCCC", 
-                "GOOOG", 
-                "DOOOD", 
-                "GOOOG", 
-                "CGGGC"
-            )
-            .aisle(
-                "CCCCC", 
-                "GOOOG", 
-                "DO-OD", 
-                "GOOOG", 
-                "CGGGC"
-            )
-            .aisle(
-                "CCCCC", 
-                "GOOOG", 
-                "DOOOD", 
-                "GOOOG", 
-                "CGGGC"
-            )
-            .aisle(
-                "CCSCC", 
-                "DEGED", 
-                "DGGGD", 
-                "DEGED", 
-                "CCCCC"
-            )
-            .where('S', controller.self())
-            .where('D', <metastate:gcym:large_multiblock_casing:5>)
-            .where('E', <metastate:gregtech:meta_block_compressed_2001:2>) // enderium
-            .where('G', <metastate:appliedenergistics2:quartz_vibrant_glass:0>)
-            .where('O', <metastate:extendedcrafting:storage:4> /* omnium */)
-            .where('-', CTPredicate.getAny())
-            .where('C', CTPredicate.states(<metastate:gcym:large_multiblock_casing:11>)
-            | controller.autoAbilities(true, false, true, true, false, false, false))
-            .build();
-    } as IPatternBuilderFunction)
-    .withRecipeMap(
-        FactoryRecipeMap.start("dml_sim_chamber")
-            .minInputs(2)
-            .maxInputs(2)
-            .minOutputs(2)
-            .maxOutputs(2)
-            .build())
-    .withBaseTexture(<metastate:gcym:large_multiblock_casing:11>)
-    .buildAndRegister();
-dml_sim_chamber.hasMaintenanceMechanics = false;
-dml_sim_chamber.hasMufflerMechanics = false;
-//dml_sim_chamber.frontOverlay = <cube_renderer:CREATIVE_CONTAINER_OVERLAY>;
-
 //Recipe for Controller
-makeShaped("simulation_controller", <metaitem:multiblocktweaker:dml_sim_chamber>,
-    ["MHM",
-     "RCR",
-     "MEM"],
-    { M : <metaitem:circuit.wetware_mainframe>,
-      R : <metaitem:robot.arm.uv>,
-      C : <gcym:large_multiblock_casing:11>,
-      E : <draconicevolution:draconic_energy_core>,
-      H : <contenttweaker:heartofauniverse>
-      });
+// Moved to Groovy
 
 val DATA_MODEL_MAXIMUM_TIER = 4;
 val PRISTINE_CHANCE_FIXED = 30; // in %
 
 for mob, cost in mobs {
-    dml_sim_chamber.recipeMap.recipeBuilder()
+    dme_sim_chamber.recipeBuilder()
         .duration(301)
         .EUt(cost / 4 as int)
         .inputs(<deepmoblearning:polymer_clay>)
-        .notConsumable(itemUtils.getItem(model_prefix + mob))
+        .notConsumable(itemUtils.getItem(model_prefix + mob).withEmptyTag())
         .outputs(pristine_types[mob])
         .chancedOutput(itemUtils.getItem(pristine_prefix + mob), PRISTINE_CHANCE_FIXED * 100, 0)
         .buildAndRegister();
