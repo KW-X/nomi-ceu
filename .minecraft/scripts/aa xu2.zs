@@ -11,49 +11,7 @@ mods.thermalexpansion.Compactor.removeGearRecipe(<actuallyadditions:item_crystal
 mods.thermalexpansion.Compactor.removeGearRecipe(<actuallyadditions:item_crystal_empowered:4> * 4);
 mods.thermalexpansion.Compactor.removeGearRecipe(<actuallyadditions:item_crystal_empowered:5> * 4);
 
-
-
-//Empowered Restonia
-mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered>);
-mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered>);
-mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_restonia_gear>);
-mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal>, <metaitem:gemAlmandine>, <metaitem:ingotRedAlloy>, <gregtech:meta_item_1:85>.withTag({Fluid: {FluidName: "sulfuric_acid", Amount: 1000}}), <extendedcrafting:material:19>, 1000000, 400);
-
-
-//Empowered Palis 
-mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:1>);
-mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:1>);
-mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_palis_gear>);
-mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal:1>, <metaitem:gemSapphire>, <thermalfoundation:material:136>, <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <extendedcrafting:material:16>, 1000000, 400);
-
-
-//Empowered Enori
-mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:5>);
-mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:5>);
-mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_enori_gear>);
-mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal:5>, <metaitem:gemApatite>, <metaitem:nomilabs:ingotEndSteel>, <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "helium", Amount: 1000}}), <extendedcrafting:material:14>, 1000000, 400);
-
-
-//Empowered Void Crystal
-mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:3>);
-mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:3>);
-mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_void_gear>);
-mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:3>, <actuallyadditions:block_crystal:3>, <actuallyadditions:item_misc:5>, <metaitem:nomilabs:ingotDarkSteel>, <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "oil", Amount: 1000}}), <extendedcrafting:material:15>, 1000000, 400);
-
-
-//Empowered Diamatine
-mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:2>);
-mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:2>);
-mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_diamatine_gear>);
-mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal:2>, <extendedcrafting:material:40>, <extendedcrafting:material:24>, <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "nitrogen_dioxide", Amount: 1000}}), <extendedcrafting:material:18>, 1000000, 400);
-
-
-
-//Empowered Emerald
-mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:4>);
-mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:4>);
-mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_emeradic_gear>);
-mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal:4>, <nomilabs:stabilizeduranium>, <metaitem:nomilabs:ingotVibrantAlloy>, <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "argon", Amount: 1000}}), <extendedcrafting:material:17>, 1000000, 400);
+// Empowerer Recipes (Moved to Groovy)
 
 //Black Quartz
 electrolyzer.recipeBuilder()
@@ -427,9 +385,6 @@ recipes.addShaped(<actuallyadditions:block_furnace_solar>, [
 
 //Drill Core
 recipes.remove(<actuallyadditions:item_misc:16>);
-<actuallyadditions:item_misc:16>.addTooltip(format.red("Acquired by exploration of Lost Cities buildings or vanilla dungeons."));
-// Coin tooltip is done in normalmode.zs
-
 
 // Canola Press
 recipes.removeByRecipeName("actuallyadditions:recipes132");
@@ -437,11 +392,5 @@ recipes.addShaped(<actuallyadditions:block_canola_press>, [
 	[<metaitem:plateSteel>, <actuallyadditions:block_crystal:5>, <metaitem:plateSteel>], 
 	[<metaitem:electric.piston.mv>, null, <metaitem:electric.piston.mv>], 
 	[<metaitem:plateSteel>, <actuallyadditions:item_misc:8>, <metaitem:plateSteel>]]);
-<actuallyadditions:block_canola_press>.addTooltip(format.green("Turns Canola into Canola Oil. Requires RF."));  
-
-	
-<actuallyadditions:item_misc:13>.addTooltip(format.green("Canola can be turned into Canola Oil via a Canola Press. This is a somewhat slow machine and requres RF to function."));
-
-<actuallyadditions:item_knife>.addTooltip(format.red("When making Hamburgers, make sure to place this in the Crafting Table last! Otherwise, Bio Mash will be created."));
 	
 print("--- ActuallyAdditions.zs initialized ---");

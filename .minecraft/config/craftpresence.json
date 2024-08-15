@@ -320,8 +320,7 @@
       }
     },
     "dynamicIcons": {
-      "default": "https://via.placeholder.com/256.png",
-      "smallru8": "https://mc-heads.net/avatar/f2bf90b09ff149b587319e7c7a1f56d9"
+      "default": "https://via.placeholder.com/256.png"
     },
     "dynamicVariables": {
       "default": "Example Text",

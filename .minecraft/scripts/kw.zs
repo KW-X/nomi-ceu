@@ -9,6 +9,7 @@ chemical_reactor.recipeBuilder()
 	.duration(40)
 	.EUt(8)
 	.buildAndRegister();
+	
 //Fix bug
 var laser_engraver = RecipeMap.getByName("laser_engraver");
 laser_engraver.recipeBuilder()

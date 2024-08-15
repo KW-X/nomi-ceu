@@ -1,5 +1,5 @@
 {
-  "build:8": "4.2.1",
+  "build:8": "4.2.2",
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
@@ -44,8 +44,8 @@
     },
     "1:10": {
       "preRequisites:11": [
-        282,
-        116
+        116,
+        282
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -113,7 +113,7 @@
     },
     "2:10": {
       "preRequisites:11": [
-        55
+        1052
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -299,7 +299,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.5.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 5,
@@ -323,7 +323,7 @@
           "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.6.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 6,
@@ -373,7 +373,7 @@
           "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.7.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 7,
@@ -447,7 +447,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.9.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 9,
@@ -505,7 +505,7 @@
           "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.11.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 11,
@@ -559,7 +559,7 @@
           "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.12.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 12,
@@ -700,7 +700,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.13.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 13,
@@ -731,7 +731,7 @@
           "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.14.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 14,
@@ -792,7 +792,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.16.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 16,
@@ -823,7 +823,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.17.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 17,
@@ -854,7 +854,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.18.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 18,
@@ -918,7 +918,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.20.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 20,
@@ -1091,7 +1091,7 @@
           "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.24.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 24,
@@ -1534,7 +1534,7 @@
           "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.37.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 37,
@@ -1558,9 +1558,9 @@
     },
     "38:10": {
       "preRequisites:11": [
+        24,
         40,
-        530,
-        24
+        530
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1573,7 +1573,7 @@
           "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.38.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 38,
@@ -1635,7 +1635,7 @@
           "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.40.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 40,
@@ -1950,7 +1950,7 @@
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.50.title",
           "tasklogic:8": "OR",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 50,
@@ -2111,8 +2111,7 @@
     },
     "55:10": {
       "preRequisites:11": [
-        53,
-        727
+        53
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2217,7 +2216,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.58.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 58,
@@ -2281,7 +2280,8 @@
       "preRequisites:11": [
         21,
         59,
-        903
+        903,
+        1051
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2419,8 +2419,8 @@
     },
     "63:10": {
       "preRequisites:11": [
-        62,
-        1
+        1,
+        62
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2491,13 +2491,13 @@
     "65:10": {
       "preRequisiteTypes:7": [
         0,
-        0,
+        2,
         2
       ],
       "preRequisites:11": [
         246,
-        386,
-        328
+        328,
+        386
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2541,7 +2541,7 @@
           "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.66.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 66,
@@ -3170,6 +3170,7 @@
           "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.84.title",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -3181,8 +3182,14 @@
               "Count:3": 1,
               "Damage:2": 568,
               "id:8": "gregtech:meta_item_1"
-            },
-            "1:10": {
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
               "Count:3": 1,
               "Damage:2": 593,
               "id:8": "gregtech:meta_item_1"
@@ -3313,8 +3320,8 @@
     "89:10": {
       "preRequisites:11": [
         87,
-        236,
-        130
+        130,
+        236
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3896,8 +3903,8 @@
     },
     "106:10": {
       "preRequisites:11": [
-        104,
-        62
+        62,
+        104
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3960,8 +3967,8 @@
     },
     "108:10": {
       "preRequisites:11": [
-        109,
-        100
+        100,
+        109
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4058,8 +4065,8 @@
     },
     "111:10": {
       "preRequisites:11": [
-        105,
-        62
+        62,
+        105
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4259,8 +4266,8 @@
     },
     "117:10": {
       "preRequisites:11": [
-        132,
-        102
+        102,
+        132
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4736,8 +4743,8 @@
     "132:10": {
       "preRequisites:11": [
         35,
-        203,
-        52
+        52,
+        203
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5044,7 +5051,7 @@
           },
           "ismain:1": 1,
           "name:8": "nomifactory.quest.expert.db.141.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 141,
@@ -5331,6 +5338,11 @@
               "Count:3": 1,
               "Damage:2": 1002,
               "id:8": "gregtech:machine"
+            },
+            "1:10": {
+              "Count:3": 14,
+              "Damage:2": 3,
+              "id:8": "gregtech:metal_casing"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5527,9 +5539,9 @@
     "156:10": {
       "preRequisites:11": [
         60,
-        1040,
         91,
-        836
+        836,
+        1040
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6720,6 +6732,17 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
+              "Damage:2": 569,
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
               "Damage:2": 594,
               "id:8": "gregtech:meta_item_1"
             }
@@ -6925,15 +6948,22 @@
       }
     },
     "197:10": {
+      "preRequisiteTypes:7": [
+        2,
+        0,
+        1
+      ],
       "preRequisites:11": [
-        201
+        159,
+        201,
+        827
       ],
       "properties:10": {
         "betterquesting:10": {
           "desc:8": "nomifactory.quest.expert.db.197.desc",
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 2013,
+            "Damage:2": 451,
             "id:8": "gregtech:meta_ingot"
           },
           "ismain:1": 1,
@@ -6948,7 +6978,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 2013,
+              "Damage:2": 451,
               "id:8": "gregtech:meta_ingot"
             }
           },
@@ -6958,8 +6988,8 @@
     },
     "198:10": {
       "preRequisites:11": [
-        197,
-        785
+        785,
+        1053
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7513,8 +7543,8 @@
     },
     "214:10": {
       "preRequisites:11": [
-        232,
-        55
+        55,
+        232
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7581,8 +7611,8 @@
     "216:10": {
       "preRequisites:11": [
         89,
-        897,
-        214
+        214,
+        895
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8011,8 +8041,8 @@
     },
     "228:10": {
       "preRequisites:11": [
-        490,
-        29
+        29,
+        490
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8037,17 +8067,27 @@
             "1:10": {
               "Count:3": 1,
               "id:8": "enderio:block_vacuum_chest"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "enderio:item_redstone_conduit"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "id:8": "enderio:item_redstone_sensor_filter"
             },
             "2:10": {
-              "Count:3": 1,
-              "id:8": "extrautils2:redstoneclock"
-            },
-            "3:10": {
               "Count:3": 1,
               "id:8": "storagedrawers:upgrade_void"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -8322,9 +8362,9 @@
     "238:10": {
       "preRequisites:11": [
         241,
+        258,
         330,
-        411,
-        258
+        411
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -9253,7 +9293,7 @@
             "id:8": "gregtech:item_pipe_small"
           },
           "name:8": "nomifactory.quest.expert.db.266.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 266,
@@ -9654,6 +9694,7 @@
             "Count:3": 1,
             "id:8": "minecraft:dragon_egg"
           },
+          "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.279.title",
           "visibility:8": "ALWAYS"
@@ -9989,8 +10030,8 @@
     "287:10": {
       "preRequisites:11": [
         234,
-        847,
-        286
+        286,
+        847
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -10079,12 +10120,12 @@
     },
     "289:10": {
       "preRequisiteTypes:7": [
-        0,
-        2
+        1,
+        0
       ],
       "preRequisites:11": [
-        839,
-        313
+        313,
+        839
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -10814,7 +10855,9 @@
     },
     "311:10": {
       "preRequisites:11": [
-        197
+        197,
+        201,
+        827
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -12126,7 +12169,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.353.title",
-          "visibility:8": "UNLOCKED"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 353,
@@ -12590,7 +12633,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.368.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 368,
@@ -12641,7 +12684,7 @@
           "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.370.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 370,
@@ -12698,7 +12741,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.371.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 371,
@@ -13118,7 +13161,6 @@
     },
     "389:10": {
       "preRequisites:11": [
-        251,
         262,
         386
       ],
@@ -13295,7 +13337,7 @@
             "id:8": "extrautils2:chunkloader"
           },
           "name:8": "nomifactory.quest.expert.db.393.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 393,
@@ -13550,7 +13592,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.401.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 401,
@@ -13697,7 +13739,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.405.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 405,
@@ -13726,7 +13768,7 @@
           "desc:8": "nomifactory.quest.expert.db.406.desc",
           "icon:10": {
             "Count:3": 1,
-            "id:8": "extendedcrafting:interface"
+            "id:8": "packagedexcrafting:ultimate_crafter"
           },
           "ismain:1": 1,
           "name:8": "nomifactory.quest.expert.db.406.title",
@@ -13831,15 +13873,15 @@
     "408:10": {
       "preRequisiteTypes:7": [
         0,
+        2,
         0,
-        0,
-        2
+        0
       ],
       "preRequisites:11": [
         104,
+        132,
         148,
-        386,
-        132
+        386
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14123,7 +14165,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.415.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 415,
@@ -14177,7 +14219,7 @@
         "0:10": {
           "requiredFluids:9": {
             "0:10": {
-              "Amount:3": 1,
+              "Amount:3": 1000,
               "FluidName:8": "fish_oil"
             }
           },
@@ -15566,7 +15608,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.488.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 488,
@@ -15644,6 +15686,7 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 125,
+              "OreDict:8": "questbookAutoclave",
               "id:8": "gregtech:machine"
             }
           },
@@ -15681,7 +15724,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.491.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 491,
@@ -15774,8 +15817,8 @@
     },
     "494:10": {
       "preRequisites:11": [
-        102,
-        62
+        62,
+        102
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -15818,7 +15861,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.495.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 495,
@@ -16365,10 +16408,10 @@
     },
     "511:10": {
       "preRequisites:11": [
-        296,
-        272,
+        18,
         26,
-        18
+        272,
+        296
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -16397,9 +16440,13 @@
       }
     },
     "512:10": {
+      "preRequisiteTypes:7": [
+        0,
+        1
+      ],
       "preRequisites:11": [
-        197,
-        296
+        296,
+        1053
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -16877,14 +16924,14 @@
     },
     "527:10": {
       "preRequisiteTypes:7": [
-        0,
         2,
-        2
+        2,
+        0
       ],
       "preRequisites:11": [
-        311,
+        235,
         275,
-        235
+        311
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -16991,7 +17038,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.530.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 530,
@@ -17079,14 +17126,14 @@
     },
     "533:10": {
       "preRequisiteTypes:7": [
+        2,
         0,
-        0,
-        2
+        0
       ],
       "preRequisites:11": [
+        325,
         535,
-        536,
-        325
+        536
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17302,9 +17349,9 @@
     "540:10": {
       "preRequisites:11": [
         21,
+        76,
         147,
-        259,
-        76
+        259
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17366,10 +17413,15 @@
       }
     },
     "542:10": {
+      "preRequisiteTypes:7": [
+        0,
+        0,
+        1
+      ],
       "preRequisites:11": [
-        197,
+        209,
         296,
-        209
+        1053
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17581,7 +17633,6 @@
     },
     "548:10": {
       "preRequisites:11": [
-        21,
         909
       ],
       "properties:10": {
@@ -17594,8 +17645,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.548.title",
-          "questlogic:8": "OR",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 548,
@@ -17667,6 +17717,16 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "extrautils2:angelblock"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -17749,7 +17809,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.552.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 552,
@@ -17947,7 +18007,7 @@
           },
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.558.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 558,
@@ -21146,7 +21206,7 @@
           },
           "ismain:1": 1,
           "name:8": "nomifactory.quest.expert.db.670.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 670,
@@ -21320,8 +21380,8 @@
     "675:10": {
       "preRequisites:11": [
         669,
-        674,
-        673
+        673,
+        674
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -21740,7 +21800,7 @@
           "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.687.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 687,
@@ -22701,8 +22761,8 @@
           "desc:8": "nomifactory.quest.expert.db.727.desc",
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 4,
-            "id:8": "gregtech:meta_dust_tiny"
+            "Damage:2": 39,
+            "id:8": "gregtech:meta_dust"
           },
           "name:8": "nomifactory.quest.expert.db.727.title",
           "visibility:8": "ALWAYS"
@@ -23071,7 +23131,7 @@
             "id:8": "minecraft:book"
           },
           "name:8": "nomifactory.quest.expert.db.743.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 743,
@@ -23125,12 +23185,12 @@
     },
     "745:10": {
       "preRequisiteTypes:7": [
-        0,
-        2
+        2,
+        0
       ],
       "preRequisites:11": [
-        311,
-        235
+        235,
+        311
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -23282,9 +23342,9 @@
     },
     "749:10": {
       "preRequisites:11": [
+        535,
         802,
-        846,
-        535
+        846
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -23337,8 +23397,8 @@
           "desc:8": "nomifactory.quest.expert.db.750.desc",
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 167,
-            "id:8": "thermalfoundation:material"
+            "Damage:2": 18,
+            "id:8": "nomilabs:meta_ingot"
           },
           "ismain:1": 1,
           "lockedprogress:1": 1,
@@ -23588,7 +23648,7 @@
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.755.title",
           "tasklogic:8": "OR",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 755,
@@ -24160,6 +24220,7 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 440,
+              "OreDict:8": "questbookLathe",
               "id:8": "gregtech:machine"
             }
           },
@@ -24183,7 +24244,7 @@
             "id:8": "gregtech:machine"
           },
           "name:8": "nomifactory.quest.expert.db.775.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 775,
@@ -24348,7 +24409,7 @@
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.780.title",
           "questlogic:8": "OR",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 780,
@@ -24373,14 +24434,14 @@
       "preRequisiteTypes:7": [
         0,
         0,
-        2,
-        0
+        0,
+        2
       ],
       "preRequisites:11": [
         196,
+        286,
         531,
-        828,
-        286
+        828
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -24500,6 +24561,7 @@
           "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.785.title",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -24510,6 +24572,16 @@
             "0:10": {
               "Amount:3": 1000,
               "FluidName:8": "silicone_rubber"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        },
+        "1:10": {
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "styrene_butadiene_rubber"
             }
           },
           "taskID:8": "bq_standard:fluid"
@@ -24531,7 +24603,7 @@
             "id:8": "effortlessbuilding:reach_upgrade1"
           },
           "name:8": "nomifactory.quest.expert.db.786.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 786,
@@ -24815,6 +24887,7 @@
           "ismain:1": 1,
           "lockedprogress:1": 1,
           "name:8": "nomifactory.quest.expert.db.795.title",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -24825,6 +24898,17 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 573,
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 598,
               "id:8": "gregtech:meta_item_1"
             }
           },
@@ -25088,7 +25172,7 @@
             "id:8": "minecraft:bed"
           },
           "name:8": "nomifactory.quest.expert.db.803.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 803,
@@ -25257,7 +25341,7 @@
             "id:8": "minecraft:knowledge_book"
           },
           "name:8": "nomifactory.quest.expert.db.808.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 808,
@@ -25292,7 +25376,8 @@
     },
     "810:10": {
       "preRequisites:11": [
-        60
+        60,
+        837
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -25387,7 +25472,7 @@
             "id:8": "gregtech:meta_ingot"
           },
           "name:8": "nomifactory.quest.expert.db.813.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 813,
@@ -25503,7 +25588,7 @@
             "id:8": "gregtech:machine"
           },
           "name:8": "nomifactory.quest.expert.db.817.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 817,
@@ -25873,6 +25958,7 @@
     },
     "827:10": {
       "preRequisites:11": [
+        65,
         177
       ],
       "properties:10": {
@@ -25885,6 +25971,7 @@
           },
           "ismain:1": 1,
           "name:8": "nomifactory.quest.expert.db.827.title",
+          "questlogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -25895,15 +25982,31 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 93,
-              "id:8": "gregtech:meta_ingot"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 90,
-              "id:8": "gregtech:meta_ingot"
+              "id:8": "gregtech:meta_dust"
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 90,
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 75,
+              "id:8": "gregtech:meta_dust"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 50,
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -25972,12 +26075,12 @@
     },
     "830:10": {
       "preRequisiteTypes:7": [
-        0,
-        2
+        2,
+        0
       ],
       "preRequisites:11": [
-        93,
-        89
+        89,
+        93
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -26220,7 +26323,6 @@
     "837:10": {
       "preRequisites:11": [
         91,
-        810,
         836
       ],
       "properties:10": {
@@ -26264,12 +26366,24 @@
             "id:8": "gregtech:meta_item_1"
           },
           "name:8": "nomifactory.quest.expert.db.838.title",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 838,
       "tasks:9": {
         "0:10": {
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 572,
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -26317,14 +26431,14 @@
     },
     "840:10": {
       "preRequisiteTypes:7": [
+        1,
         0,
-        0,
-        2
+        0
       ],
       "preRequisites:11": [
+        325,
         791,
-        841,
-        325
+        841
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -26855,6 +26969,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "name:8": "nomifactory.quest.expert.db.856.title",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -26865,6 +26980,17 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 574,
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 599,
               "id:8": "gregtech:meta_item_1"
             }
           },
@@ -28122,6 +28248,7 @@
     },
     "897:10": {
       "preRequisites:11": [
+        52,
         830,
         896
       ],
@@ -28554,7 +28681,7 @@
           },
           "ismain:1": 1,
           "name:8": "nomifactory.quest.expert.db.909.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 909,
@@ -28615,7 +28742,7 @@
     },
     "911:10": {
       "preRequisites:11": [
-        409
+        38
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -28626,7 +28753,7 @@
             "id:8": "gregtech:machine"
           },
           "name:8": "nomifactory.quest.expert.db.911.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 911,
@@ -28645,8 +28772,8 @@
     },
     "912:10": {
       "preRequisites:11": [
-        344,
-        233
+        233,
+        344
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -28696,7 +28823,7 @@
           },
           "name:8": "nomifactory.quest.expert.db.913.title",
           "repeattime:3": 72000,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 913,
@@ -28749,7 +28876,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "name:8": "nomifactory.quest.expert.db.914.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 914,
@@ -28761,9 +28888,9 @@
     },
     "915:10": {
       "preRequisites:11": [
+        62,
         494,
-        729,
-        62
+        729
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -28825,11 +28952,11 @@
     },
     "917:10": {
       "preRequisites:11": [
-        62,
-        230,
-        148,
         54,
-        132
+        62,
+        132,
+        148,
+        230
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -28868,8 +28995,8 @@
     },
     "918:10": {
       "preRequisites:11": [
-        917,
-        391
+        391,
+        917
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -28933,14 +29060,14 @@
     },
     "920:10": {
       "preRequisiteTypes:7": [
-        2,
         0,
-        0
+        0,
+        2
       ],
       "preRequisites:11": [
-        848,
         239,
-        776
+        776,
+        848
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -29003,9 +29130,9 @@
     },
     "922:10": {
       "preRequisites:11": [
-        757,
+        150,
         174,
-        150
+        757
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -29092,7 +29219,7 @@
           "desc:8": "nomifactory.quest.expert.db.925.desc",
           "icon:10": {
             "Count:3": 1,
-            "id:8": "actuallyadditions:block_laser_relay_item"
+            "id:8": "packageddraconic:fusion_crafter"
           },
           "name:8": "nomifactory.quest.expert.db.925.title",
           "visibility:8": "ALWAYS"
@@ -29103,24 +29230,8 @@
         "0:10": {
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 10,
-              "id:8": "actuallyadditions:block_laser_relay_item"
-            },
-            "1:10": {
               "Count:3": 1,
-              "id:8": "actuallyadditions:block_item_viewer"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "id:8": "actuallyadditions:item_laser_wrench"
-            },
-            "3:10": {
-              "Count:3": 1,
-              "id:8": "minecraft:compass"
-            },
-            "4:10": {
-              "Count:3": 1,
-              "id:8": "extrautils2:redstoneclock"
+              "id:8": "packageddraconic:fusion_crafter"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -29173,7 +29284,7 @@
             "id:8": "toolbelt:belt"
           },
           "name:8": "nomifactory.quest.expert.db.927.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 927,
@@ -29249,8 +29360,8 @@
     },
     "930:10": {
       "preRequisites:11": [
-        100,
-        98
+        98,
+        100
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -29592,7 +29703,7 @@
             "id:8": "minecraft:chest"
           },
           "name:8": "nomifactory.quest.expert.db.932.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 932,
@@ -29604,8 +29715,8 @@
     },
     "933:10": {
       "preRequisites:11": [
-        56,
-        53
+        53,
+        56
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -29753,7 +29864,7 @@
             "id:8": "minecraft:glass"
           },
           "name:8": "nomifactory.quest.expert.db.937.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 937,
@@ -29786,7 +29897,7 @@
             "id:8": "actuallyadditions:block_giant_chest"
           },
           "name:8": "nomifactory.quest.expert.db.938.title",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 938,
@@ -29803,19 +29914,1729 @@
       }
     },
     "939:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 939,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "940:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 940,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "941:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 941,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "942:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 942,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "943:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 943,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "944:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 944,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "945:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 945,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "946:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 946,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "947:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 947,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "948:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 948,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "949:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 949,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "950:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 950,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "951:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 951,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "952:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 952,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "953:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 953,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "954:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 954,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "955:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 955,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "956:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 956,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "957:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 957,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "958:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 958,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "959:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 959,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "960:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 960,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "961:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 961,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "962:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 962,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "963:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 963,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "964:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 964,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "965:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 965,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "966:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 966,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "967:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 967,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "968:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 968,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "969:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 969,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "970:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 970,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "971:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 971,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "972:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 972,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "973:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 973,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "974:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 974,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "975:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 975,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "976:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 976,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "977:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 977,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "978:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 978,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "979:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 979,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "980:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 980,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "981:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 981,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "982:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 982,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "983:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 983,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "984:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 984,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "985:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 985,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "986:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 986,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "987:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 987,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "988:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 988,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "989:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 989,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "990:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 990,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "991:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 991,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "992:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 992,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "993:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 993,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "994:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 994,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "995:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 995,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "996:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 996,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "997:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 997,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "998:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 998,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "999:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 999,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1000:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1000,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1001:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1001,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1002:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1002,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1003:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1003,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1004:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1004,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1005:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1005,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1006:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1006,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1007:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1007,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1008:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1008,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1009:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1009,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1010:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1010,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1011:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1011,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1012:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1012,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1013:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1013,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1014:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1014,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1015:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1015,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1016:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1016,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1017:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1017,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1018:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1018,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1019:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1019,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1020:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1020,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1021:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1021,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1022:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1022,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1023:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1023,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1024:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1024,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1025:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1025,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1026:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1026,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1027:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1027,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1028:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "",
+          "icon:10": {
+            "id:8": "minecraft:air"
+          },
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
+        }
+      },
+      "questID:3": 1028,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1029:10": {
       "preRequisites:11": [
         192
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.939.desc",
+          "desc:8": "nomifactory.quest.expert.db.1029.desc",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 261,
             "id:8": "gregtech:meta_item_1"
           },
           "ismain:1": 1,
-          "name:8": "nomifactory.quest.expert.db.939.title",
+          "name:8": "nomifactory.quest.expert.db.1029.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -29839,7 +31660,7 @@
         }
       }
     },
-    "940:10": {
+    "1030:10": {
       "preRequisiteTypes:7": [
         1
       ],
@@ -29848,13 +31669,13 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.940.desc",
+          "desc:8": "nomifactory.quest.expert.db.1030.desc",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 1041,
             "id:8": "gregtech:machine"
           },
-          "name:8": "nomifactory.quest.expert.db.940.title",
+          "name:8": "nomifactory.quest.expert.db.1030.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -29877,22 +31698,24 @@
         }
       }
     },
-    "941:10": {
+    "1031:10": {
       "preRequisiteTypes:7": [
-        2
+        1,
+        1
       ],
       "preRequisites:11": [
-        286
+        286,
+        1035
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.941.desc",
+          "desc:8": "nomifactory.quest.expert.db.1031.desc",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 1392,
             "id:8": "gregtech:machine"
           },
-          "name:8": "nomifactory.quest.expert.db.941.title",
+          "name:8": "nomifactory.quest.expert.db.1031.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -29911,20 +31734,20 @@
         }
       }
     },
-    "942:10": {
+    "1032:10": {
       "preRequisites:11": [
         109,
         339
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.942.desc",
+          "desc:8": "nomifactory.quest.expert.db.1032.desc",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 1748,
             "id:8": "gregtech:machine"
           },
-          "name:8": "nomifactory.quest.expert.db.942.title",
+          "name:8": "nomifactory.quest.expert.db.1032.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -29941,63 +31764,61 @@
               "Count:3": 1,
               "Damage:2": 1746,
               "id:8": "gregtech:machine"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 1747,
+              "id:8": "gregtech:machine"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 1745,
+              "id:8": "gregtech:machine"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 261,
+              "id:8": "gregtech:meta_item_1"
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       }
     },
-    "943:10": {
-      "preRequisites:11": [
-        102,
-        339
-      ],
+    "1033:10": {
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.943.desc",
+          "desc:8": "",
           "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 1747,
-            "id:8": "gregtech:machine"
+            "id:8": "minecraft:air"
           },
-          "name:8": "nomifactory.quest.expert.db.943.title",
-          "visibility:8": "ALWAYS"
+          "issilent:1": 1,
+          "name:8": "",
+          "visibility:8": "HIDDEN"
         }
       },
       "questID:3": 1033,
       "tasks:9": {
         "0:10": {
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1747,
-              "id:8": "gregtech:machine"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 1745,
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:checkbox"
         }
       }
     },
-    "944:10": {
+    "1034:10": {
       "preRequisites:11": [
         286,
         1037
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.944.desc",
+          "desc:8": "nomifactory.quest.expert.db.1034.desc",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 1037,
             "id:8": "gregtech:machine"
           },
           "ismain:1": 1,
-          "name:8": "nomifactory.quest.expert.db.944.title",
+          "name:8": "nomifactory.quest.expert.db.1034.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -30034,22 +31855,23 @@
         }
       }
     },
-    "945:10": {
+    "1035:10": {
       "preRequisites:11": [
-        1037,
         286,
-        325
+        325,
+        844,
+        1037
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.945.desc",
+          "desc:8": "nomifactory.quest.expert.db.1035.desc",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 1038,
             "id:8": "gregtech:machine"
           },
           "ismain:1": 1,
-          "name:8": "nomifactory.quest.expert.db.945.title",
+          "name:8": "nomifactory.quest.expert.db.1035.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -30091,21 +31913,21 @@
         }
       }
     },
-    "946:10": {
+    "1036:10": {
       "preRequisites:11": [
-        1037,
-        286
+        286,
+        1037
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.946.desc",
+          "desc:8": "nomifactory.quest.expert.db.1036.desc",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 1039,
             "id:8": "gregtech:machine"
           },
           "ismain:1": 1,
-          "name:8": "nomifactory.quest.expert.db.946.title",
+          "name:8": "nomifactory.quest.expert.db.1036.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -30157,19 +31979,20 @@
         }
       }
     },
-    "947:10": {
+    "1037:10": {
       "preRequisites:11": [
+        328,
         825
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.947.desc",
+          "desc:8": "nomifactory.quest.expert.db.1037.desc",
           "icon:10": {
             "Count:3": 1,
             "id:8": "gregtech:optical_pipe_normal"
           },
           "ismain:1": 1,
-          "name:8": "nomifactory.quest.expert.db.947.title",
+          "name:8": "nomifactory.quest.expert.db.1037.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -30186,21 +32009,21 @@
         }
       }
     },
-    "948:10": {
+    "1038:10": {
       "preRequisites:11": [
-        1039,
-        196
+        196,
+        1039
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.948.desc",
+          "desc:8": "nomifactory.quest.expert.db.1038.desc",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 1040,
             "id:8": "gregtech:machine"
           },
           "ismain:1": 1,
-          "name:8": "nomifactory.quest.expert.db.948.title",
+          "name:8": "nomifactory.quest.expert.db.1038.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -30232,21 +32055,21 @@
         }
       }
     },
-    "949:10": {
+    "1039:10": {
       "preRequisites:11": [
-        535,
-        258
+        258,
+        535
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.949.desc",
+          "desc:8": "nomifactory.quest.expert.db.1039.desc",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 1414,
             "id:8": "gregtech:machine"
           },
           "ismain:1": 1,
-          "name:8": "nomifactory.quest.expert.db.949.title",
+          "name:8": "nomifactory.quest.expert.db.1039.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -30264,20 +32087,20 @@
         }
       }
     },
-    "950:10": {
+    "1040:10": {
       "preRequisites:11": [
         259
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.950.desc",
+          "desc:8": "nomifactory.quest.expert.db.1040.desc",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 201,
             "id:8": "gregtech:machine"
           },
           "ismain:1": 1,
-          "name:8": "nomifactory.quest.expert.db.950.title",
+          "name:8": "nomifactory.quest.expert.db.1040.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -30295,20 +32118,20 @@
         }
       }
     },
-    "951:10": {
+    "1041:10": {
       "preRequisites:11": [
         157
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.951.desc",
+          "desc:8": "nomifactory.quest.expert.db.1041.desc",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 99,
             "id:8": "gregtech:meta_ingot"
           },
           "ismain:1": 1,
-          "name:8": "nomifactory.quest.expert.db.951.title",
+          "name:8": "nomifactory.quest.expert.db.1041.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -30326,22 +32149,24 @@
         }
       }
     },
-    "952:10": {
+    "1042:10": {
       "preRequisiteTypes:7": [
-        1
+        1,
+        2
       ],
       "preRequisites:11": [
-        524
+        524,
+        847
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.952.desc",
+          "desc:8": "nomifactory.quest.expert.db.1042.desc",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 1042,
             "id:8": "gregtech:machine"
           },
-          "name:8": "nomifactory.quest.expert.db.952.title",
+          "name:8": "nomifactory.quest.expert.db.1042.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -30368,18 +32193,18 @@
         }
       }
     },
-    "953:10": {
+    "1043:10": {
       "preRequisites:11": [
         286
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.953.desc",
+          "desc:8": "nomifactory.quest.expert.db.1043.desc",
           "icon:10": {
             "Count:3": 1,
             "id:8": "solarflux:solar_panel_8"
           },
-          "name:8": "nomifactory.quest.expert.db.953.title",
+          "name:8": "nomifactory.quest.expert.db.1043.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -30396,7 +32221,7 @@
         }
       }
     },
-    "954:10": {
+    "1044:10": {
       "preRequisiteTypes:7": [
         1
       ],
@@ -30405,13 +32230,13 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "nomifactory.quest.expert.db.954.desc",
+          "desc:8": "nomifactory.quest.expert.db.1044.desc",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 2,
             "id:8": "gregtech:warning_sign_1"
           },
-          "name:8": "nomifactory.quest.expert.db.954.title",
+          "name:8": "nomifactory.quest.expert.db.1044.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -30422,6 +32247,280 @@
             "0:10": {
               "Count:3": 1,
               "id:8": "gregtech:laser_pipe_normal"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1045:10": {
+      "preRequisites:11": [
+        339
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "nomifactory.quest.expert.db.1045.desc",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1399,
+            "id:8": "gregtech:machine"
+          },
+          "name:8": "nomifactory.quest.expert.db.1045.title",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 1045,
+      "tasks:9": {
+        "0:10": {
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1399,
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1245,
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "1046:10": {
+      "preRequisites:11": [
+        56
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "nomifactory.quest.expert.db.1046.desc",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 10,
+            "id:8": "gregtech:warning_sign"
+          },
+          "name:8": "nomifactory.quest.expert.db.1046.title",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 1046,
+      "tasks:9": {
+        "0:10": {
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1751,
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1047:10": {
+      "preRequisites:11": [
+        339
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "nomifactory.quest.expert.db.1047.desc",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1418,
+            "id:8": "gregtech:machine"
+          },
+          "name:8": "nomifactory.quest.expert.db.1047.title",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 1047,
+      "tasks:9": {
+        "0:10": {
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1418,
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1048:10": {
+      "preRequisites:11": [
+        3
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "nomifactory.quest.expert.db.1048.desc",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "minecraft:filled_map"
+          },
+          "name:8": "nomifactory.quest.expert.db.1048.title",
+          "visibility:8": "UNLOCKED"
+        }
+      },
+      "questID:3": 1048,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1049:10": {
+      "preRequisiteTypes:7": [
+        1,
+        1
+      ],
+      "preRequisites:11": [
+        22,
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "nomifactory.quest.expert.db.1049.desc",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "redstonearsenal:tool.wrench_flux",
+            "tag:10": {
+              "Energy:3": 0
+            }
+          },
+          "name:8": "nomifactory.quest.expert.db.1049.title",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 1049,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1050:10": {
+      "preRequisites:11": [
+        53
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "nomifactory.quest.expert.db.1050.desc",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 920,
+            "id:8": "gregtech:machine"
+          },
+          "name:8": "nomifactory.quest.expert.db.1050.title",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 1050,
+      "tasks:9": {
+        "0:10": {
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 920,
+              "OreDict:8": "questbookSingleMiner",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1051:10": {
+      "preRequisites:11": [
+        55,
+        72
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "nomifactory.quest.expert.db.1051.desc",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "forge:bucketfilled",
+            "tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "glue"
+            }
+          },
+          "ismain:1": 1,
+          "name:8": "nomifactory.quest.expert.db.1051.title",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 1051,
+      "tasks:9": {
+        "0:10": {
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "glue"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "1052:10": {
+      "preRequisites:11": [
+        55,
+        727
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "nomifactory.quest.expert.db.1052.desc",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 4,
+            "id:8": "gregtech:meta_dust_tiny"
+          },
+          "name:8": "nomifactory.quest.expert.db.1052.title",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 1052,
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1053:10": {
+      "preRequisites:11": [
+        201,
+        311
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "nomifactory.quest.expert.db.1053.desc",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2013,
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ismain:1": 1,
+          "name:8": "nomifactory.quest.expert.db.1053.title",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 1053,
+      "tasks:9": {
+        "0:10": {
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2013,
+              "id:8": "gregtech:meta_ingot"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -30547,354 +32646,389 @@
           "y:3": 220
         },
         "14:10": {
+          "id:3": 55,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -792,
+          "y:3": 272
+        },
+        "15:10": {
           "id:3": 59,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -736,
           "y:3": 232
         },
-        "15:10": {
+        "16:10": {
           "id:3": 60,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -748,
           "y:3": 340
         },
-        "16:10": {
+        "17:10": {
           "id:3": 69,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -648,
           "y:3": 352
         },
-        "17:10": {
+        "18:10": {
           "id:3": 72,
           "sizeX:3": 56,
           "sizeY:3": 56,
           "x:3": -908,
           "y:3": 288
         },
-        "18:10": {
+        "19:10": {
           "id:3": 145,
           "sizeX:3": 30,
           "sizeY:3": 30,
           "x:3": -895,
           "y:3": 181
         },
-        "19:10": {
+        "20:10": {
           "id:3": 146,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -792,
           "y:3": 128
         },
-        "20:10": {
+        "21:10": {
           "id:3": 147,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -840,
           "y:3": 232
         },
-        "21:10": {
+        "22:10": {
           "id:3": 215,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -840,
           "y:3": 80
         },
-        "22:10": {
+        "23:10": {
           "id:3": 228,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -560,
           "y:3": 80
         },
-        "23:10": {
+        "24:10": {
           "id:3": 231,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -700,
           "y:3": 400
         },
-        "24:10": {
+        "25:10": {
           "id:3": 259,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -660,
           "y:3": 388
         },
-        "25:10": {
+        "26:10": {
           "id:3": 260,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -648,
           "y:3": 232
         },
-        "26:10": {
+        "27:10": {
           "id:3": 270,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -940,
-          "y:3": 128
+          "y:3": 80
         },
-        "27:10": {
+        "28:10": {
           "id:3": 272,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
           "y:3": 160
         },
-        "28:10": {
+        "29:10": {
           "id:3": 273,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -792,
           "y:3": 400
         },
-        "29:10": {
+        "30:10": {
           "id:3": 282,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -480,
           "y:3": 116
         },
-        "30:10": {
+        "31:10": {
           "id:3": 296,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
           "y:3": 128
         },
-        "31:10": {
+        "32:10": {
           "id:3": 352,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -792,
           "y:3": 80
         },
-        "32:10": {
+        "33:10": {
           "id:3": 402,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -444,
           "y:3": 354
         },
-        "33:10": {
+        "34:10": {
           "id:3": 403,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -492,
           "y:3": 354
         },
-        "34:10": {
+        "35:10": {
           "id:3": 413,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -892,
           "y:3": 128
         },
-        "35:10": {
+        "36:10": {
           "id:3": 489,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -984,
           "y:3": 184
         },
-        "36:10": {
+        "37:10": {
           "id:3": 490,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -560,
           "y:3": 128
         },
-        "37:10": {
+        "38:10": {
           "id:3": 497,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -940,
           "y:3": 232
         },
-        "38:10": {
+        "39:10": {
           "id:3": 498,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -840,
           "y:3": 400
         },
-        "39:10": {
+        "40:10": {
           "id:3": 516,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -792,
           "y:3": 304
         },
-        "40:10": {
+        "41:10": {
           "id:3": 517,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -892,
           "y:3": 232
         },
-        "41:10": {
+        "42:10": {
           "id:3": 528,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
           "y:3": 196
         },
-        "42:10": {
+        "43:10": {
           "id:3": 544,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -696,
           "y:3": 268
         },
-        "43:10": {
+        "44:10": {
           "id:3": 545,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -648,
           "y:3": 304
         },
-        "44:10": {
+        "45:10": {
           "id:3": 548,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -736,
           "y:3": 80
         },
-        "45:10": {
+        "46:10": {
           "id:3": 553,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
           "y:3": 80
         },
-        "46:10": {
+        "47:10": {
           "id:3": 554,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
           "y:3": 48
         },
-        "47:10": {
+        "48:10": {
           "id:3": 559,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -700,
           "y:3": 436
         },
-        "48:10": {
+        "49:10": {
           "id:3": 684,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -504,
           "y:3": 80
         },
-        "49:10": {
+        "50:10": {
           "id:3": 774,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -840,
-          "y:3": 184
+          "x:3": -940,
+          "y:3": 128
         },
-        "50:10": {
+        "51:10": {
           "id:3": 779,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -588,
           "y:3": 402
         },
-        "51:10": {
+        "52:10": {
           "id:3": 787,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -560,
           "y:3": 160
         },
-        "52:10": {
+        "53:10": {
           "id:3": 788,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -540,
           "y:3": 402
         },
-        "53:10": {
+        "54:10": {
           "id:3": 789,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -540,
           "y:3": 354
         },
-        "54:10": {
+        "55:10": {
           "id:3": 805,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
           "y:3": 232
         },
-        "55:10": {
+        "56:10": {
           "id:3": 814,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -692,
           "y:3": 80
         },
-        "56:10": {
+        "57:10": {
           "id:3": 815,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -940,
           "y:3": 184
         },
-        "57:10": {
+        "58:10": {
           "id:3": 819,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -492,
           "y:3": 402
         },
-        "58:10": {
+        "59:10": {
           "id:3": 890,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -444,
           "y:3": 306
         },
-        "59:10": {
+        "60:10": {
           "id:3": 893,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -492,
           "y:3": 306
         },
-        "60:10": {
+        "61:10": {
           "id:3": 903,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -736,
           "y:3": 304
         },
-        "61:10": {
+        "62:10": {
           "id:3": 919,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -444,
           "y:3": 258
         },
-        "62:10": {
+        "63:10": {
           "id:3": 926,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -444,
           "y:3": 400
         },
-        "63:10": {
+        "64:10": {
           "id:3": 933,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -840,
           "y:3": 272
+        },
+        "65:10": {
+          "id:3": 1046,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -588,
+          "y:3": 354
+        },
+        "66:10": {
+          "id:3": 1049,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -492,
+          "y:3": 258
+        },
+        "67:10": {
+          "id:3": 1050,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -840,
+          "y:3": 184
+        },
+        "68:10": {
+          "id:3": 1051,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -792,
+          "y:3": 352
         }
       }
     },
@@ -31008,711 +33142,711 @@
           "y:3": -232
         },
         "13:10": {
-          "id:3": 55,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -48,
-          "y:3": -360
-        },
-        "14:10": {
           "id:3": 57,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 636,
           "y:3": -228
         },
-        "15:10": {
+        "14:10": {
           "id:3": 67,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 636,
           "y:3": -416
         },
-        "16:10": {
+        "15:10": {
           "id:3": 70,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -48,
           "y:3": -404
         },
-        "17:10": {
+        "16:10": {
           "id:3": 71,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 80,
           "y:3": -232
         },
-        "18:10": {
+        "17:10": {
           "id:3": 72,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -48,
           "y:3": -148
         },
-        "19:10": {
+        "18:10": {
           "id:3": 74,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 116,
           "y:3": -184
         },
-        "20:10": {
+        "19:10": {
           "id:3": 75,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -228
         },
-        "21:10": {
+        "20:10": {
           "id:3": 76,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 80,
           "y:3": -64
         },
-        "22:10": {
+        "21:10": {
           "id:3": 78,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -316
         },
-        "23:10": {
+        "22:10": {
           "id:3": 79,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 64,
           "y:3": -276
         },
-        "24:10": {
+        "23:10": {
           "id:3": 80,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": -316
         },
-        "25:10": {
+        "24:10": {
           "id:3": 81,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 64,
           "y:3": -316
         },
-        "26:10": {
+        "25:10": {
           "id:3": 82,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 16,
           "y:3": -60
         },
-        "27:10": {
+        "26:10": {
           "id:3": 83,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 280,
+          "x:3": 284,
           "y:3": -448
         },
-        "28:10": {
+        "27:10": {
           "id:3": 84,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 280,
+          "x:3": 284,
           "y:3": -316
         },
-        "29:10": {
+        "28:10": {
           "id:3": 86,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 312,
           "y:3": -328
         },
-        "30:10": {
+        "29:10": {
           "id:3": 87,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 324,
           "y:3": -484
         },
-        "31:10": {
+        "30:10": {
           "id:3": 88,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 280,
+          "x:3": 284,
           "y:3": -388
         },
-        "32:10": {
+        "31:10": {
           "id:3": 89,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 324,
           "y:3": -520
         },
-        "33:10": {
+        "32:10": {
           "id:3": 90,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 524,
           "y:3": -532
         },
-        "34:10": {
+        "33:10": {
           "id:3": 91,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 132,
           "y:3": -232
         },
-        "35:10": {
+        "34:10": {
           "id:3": 92,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 116,
           "y:3": -104
         },
-        "36:10": {
+        "35:10": {
           "id:3": 93,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 392,
-          "y:3": -240
+          "sizeX:3": 40,
+          "sizeY:3": 40,
+          "x:3": 440,
+          "y:3": -236
         },
-        "37:10": {
+        "36:10": {
           "id:3": 94,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 208,
           "y:3": -228
         },
-        "38:10": {
+        "37:10": {
           "id:3": 95,
           "sizeX:3": 40,
           "sizeY:3": 40,
           "x:3": 276,
           "y:3": -236
         },
-        "39:10": {
+        "38:10": {
           "id:3": 96,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 492,
           "y:3": -228
         },
-        "40:10": {
+        "39:10": {
           "id:3": 98,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": 356,
+          "x:3": 360,
           "y:3": -232
         },
-        "41:10": {
+        "40:10": {
           "id:3": 104,
           "sizeX:3": 40,
           "sizeY:3": 40,
-          "x:3": 440,
-          "y:3": -292
+          "x:3": 484,
+          "y:3": -188
         },
-        "42:10": {
+        "41:10": {
           "id:3": 107,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": -184
         },
-        "43:10": {
+        "42:10": {
           "id:3": 112,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": -144
         },
-        "44:10": {
+        "43:10": {
           "id:3": 126,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 448,
-          "y:3": -228
+          "x:3": 364,
+          "y:3": -276
         },
-        "45:10": {
+        "44:10": {
           "id:3": 129,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -448
         },
-        "46:10": {
+        "45:10": {
           "id:3": 130,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 324,
           "y:3": -556
         },
-        "47:10": {
+        "46:10": {
           "id:3": 131,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 536,
           "y:3": -228
         },
-        "48:10": {
+        "47:10": {
           "id:3": 132,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 696,
           "y:3": -372
         },
-        "49:10": {
+        "48:10": {
           "id:3": 133,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 532,
           "y:3": -452
         },
-        "50:10": {
+        "49:10": {
           "id:3": 134,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 536,
           "y:3": -284
         },
-        "51:10": {
+        "50:10": {
           "id:3": 135,
           "sizeX:3": 40,
           "sizeY:3": 40,
           "x:3": 528,
           "y:3": -380
         },
-        "52:10": {
+        "51:10": {
           "id:3": 154,
           "sizeX:3": 40,
           "sizeY:3": 40,
           "x:3": 736,
           "y:3": -380
         },
-        "53:10": {
+        "52:10": {
           "id:3": 156,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 136,
           "y:3": -316
         },
-        "54:10": {
+        "53:10": {
           "id:3": 157,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 244,
           "y:3": -316
         },
-        "55:10": {
+        "54:10": {
           "id:3": 164,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 244,
           "y:3": -228
         },
-        "56:10": {
+        "55:10": {
           "id:3": 165,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 244,
           "y:3": -184
         },
-        "57:10": {
+        "56:10": {
           "id:3": 168,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 244,
           "y:3": -276
         },
-        "58:10": {
+        "57:10": {
           "id:3": 184,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 208,
           "y:3": -184
         },
-        "59:10": {
+        "58:10": {
           "id:3": 187,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -88,
           "y:3": -408
         },
-        "60:10": {
+        "59:10": {
           "id:3": 203,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 576,
           "y:3": -372
         },
-        "61:10": {
+        "60:10": {
           "id:3": 213,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 620,
           "y:3": -336
         },
-        "62:10": {
+        "61:10": {
           "id:3": 227,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": -388
         },
-        "63:10": {
+        "62:10": {
           "id:3": 233,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 112,
           "y:3": -148
         },
-        "64:10": {
+        "63:10": {
           "id:3": 236,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 324,
-          "y:3": -228
+          "x:3": 284,
+          "y:3": -484
         },
-        "65:10": {
+        "64:10": {
           "id:3": 237,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": -104
         },
-        "66:10": {
+        "65:10": {
           "id:3": 319,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 176,
           "y:3": -392
         },
-        "67:10": {
+        "66:10": {
           "id:3": 338,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 404,
-          "y:3": -284
+          "x:3": 476,
+          "y:3": -276
         },
-        "68:10": {
+        "67:10": {
           "id:3": 398,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": 364,
-          "y:3": -488
+          "x:3": 360,
+          "y:3": -560
         },
-        "69:10": {
+        "68:10": {
           "id:3": 400,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 280,
-          "y:3": -484
+          "x:3": 284,
+          "y:3": -556
         },
-        "70:10": {
+        "69:10": {
           "id:3": 502,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 492,
           "y:3": -448
         },
-        "71:10": {
+        "70:10": {
           "id:3": 504,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 284,
           "y:3": -104
         },
-        "72:10": {
+        "71:10": {
           "id:3": 505,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 284,
           "y:3": -144
         },
-        "73:10": {
+        "72:10": {
           "id:3": 507,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 536,
           "y:3": -180
         },
-        "74:10": {
+        "73:10": {
           "id:3": 509,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -52,
           "y:3": -64
         },
-        "75:10": {
+        "74:10": {
           "id:3": 540,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": -4
         },
-        "76:10": {
+        "75:10": {
           "id:3": 541,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 220,
           "y:3": -392
         },
-        "77:10": {
+        "76:10": {
           "id:3": 546,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 208,
           "y:3": -144
         },
-        "78:10": {
+        "77:10": {
           "id:3": 549,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 172,
           "y:3": -276
         },
-        "79:10": {
+        "78:10": {
           "id:3": 609,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 132,
           "y:3": -392
         },
-        "80:10": {
+        "79:10": {
           "id:3": 727,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -360
         },
-        "81:10": {
+        "80:10": {
           "id:3": 728,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 64,
           "y:3": -420
         },
-        "82:10": {
+        "81:10": {
           "id:3": 730,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 64,
           "y:3": -388
         },
-        "83:10": {
+        "82:10": {
           "id:3": 731,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 64,
           "y:3": -356
         },
-        "84:10": {
+        "83:10": {
           "id:3": 747,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 16,
           "y:3": -228
         },
-        "85:10": {
+        "84:10": {
           "id:3": 790,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -124
         },
-        "86:10": {
+        "85:10": {
           "id:3": 801,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 744,
           "y:3": -336
         },
-        "87:10": {
+        "86:10": {
           "id:3": 810,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 208,
           "y:3": -276
         },
-        "88:10": {
+        "87:10": {
           "id:3": 812,
           "sizeX:3": 0,
           "sizeY:3": 0,
           "x:3": 296,
           "y:3": -216
         },
-        "89:10": {
+        "88:10": {
           "id:3": 816,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 312,
           "y:3": -72
         },
-        "90:10": {
+        "89:10": {
           "id:3": 818,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 276,
-          "y:3": -20
+          "x:3": 364,
+          "y:3": -104
         },
-        "91:10": {
+        "90:10": {
           "id:3": 820,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -164
         },
-        "92:10": {
+        "91:10": {
           "id:3": 821,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 16,
           "y:3": -4
         },
-        "93:10": {
+        "92:10": {
           "id:3": 822,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -60
         },
-        "94:10": {
+        "93:10": {
           "id:3": 823,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -404
         },
-        "95:10": {
+        "94:10": {
           "id:3": 824,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 576,
           "y:3": -228
         },
-        "96:10": {
+        "95:10": {
           "id:3": 830,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": 444,
-          "y:3": -184
+          "x:3": 404,
+          "y:3": -392
         },
-        "97:10": {
+        "96:10": {
           "id:3": 831,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 448,
-          "y:3": -136
+          "y:3": -388
         },
-        "98:10": {
+        "97:10": {
           "id:3": 832,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 492,
-          "y:3": -136
+          "x:3": 364,
+          "y:3": -388
         },
-        "99:10": {
+        "98:10": {
           "id:3": 833,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 404,
-          "y:3": -136
+          "x:3": 448,
+          "y:3": -356
         },
-        "100:10": {
+        "99:10": {
           "id:3": 834,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 492,
+          "x:3": 448,
           "y:3": -180
         },
-        "101:10": {
+        "100:10": {
           "id:3": 835,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 360,
-          "y:3": -268
+          "x:3": 448,
+          "y:3": -276
         },
-        "102:10": {
+        "101:10": {
           "id:3": 836,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 100,
           "y:3": -276
         },
-        "103:10": {
+        "102:10": {
           "id:3": 837,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 136,
           "y:3": -276
         },
-        "104:10": {
+        "103:10": {
           "id:3": 886,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 280,
+          "x:3": 284,
           "y:3": -520
         },
-        "105:10": {
+        "104:10": {
           "id:3": 887,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 284,
           "y:3": -184
         },
-        "106:10": {
+        "105:10": {
           "id:3": 894,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 324,
           "y:3": -448
         },
-        "107:10": {
+        "106:10": {
           "id:3": 895,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 324,
           "y:3": -388
         },
-        "108:10": {
+        "107:10": {
           "id:3": 896,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 360,
-          "y:3": -180
+          "x:3": 408,
+          "y:3": -196
         },
-        "109:10": {
+        "108:10": {
           "id:3": 897,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 404,
-          "y:3": -180
+          "x:3": 408,
+          "y:3": -228
         },
-        "110:10": {
+        "109:10": {
           "id:3": 929,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": 272,
-          "y:3": 20
+          "x:3": 360,
+          "y:3": -168
         },
-        "111:10": {
+        "110:10": {
           "id:3": 936,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 696,
           "y:3": -420
         },
-        "112:10": {
+        "111:10": {
           "id:3": 1040,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 136,
           "y:3": -356
         },
-        "113:10": {
+        "112:10": {
           "id:3": 1041,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 280,
+          "x:3": 284,
           "y:3": -276
+        },
+        "113:10": {
+          "id:3": 1052,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -48,
+          "y:3": -360
         }
       }
     },
@@ -31760,14 +33894,14 @@
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -564,
-          "y:3": 216
+          "y:3": 124
         },
         "4:10": {
           "id:3": 68,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -492,
-          "y:3": 312
+          "x:3": -444,
+          "y:3": 150
         },
         "5:10": {
           "id:3": 132,
@@ -31781,7 +33915,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -228,
-          "y:3": 132
+          "y:3": 136
         },
         "7:10": {
           "id:3": 144,
@@ -31792,16 +33926,16 @@
         },
         "8:10": {
           "id:3": 148,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": -762,
-          "y:3": 102
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": -724,
+          "y:3": 104
         },
         "9:10": {
           "id:3": 149,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -756,
+          "x:3": -720,
           "y:3": 72
         },
         "10:10": {
@@ -31815,14 +33949,14 @@
           "id:3": 151,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -756,
+          "x:3": -720,
           "y:3": -48
         },
         "12:10": {
           "id:3": 152,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -756,
+          "x:3": -720,
           "y:3": 0
         },
         "13:10": {
@@ -31850,14 +33984,14 @@
           "id:3": 158,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -512,
+          "x:3": -516,
           "y:3": 72
         },
         "17:10": {
           "id:3": 159,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -456,
+          "x:3": -468,
           "y:3": 72
         },
         "18:10": {
@@ -31962,22 +34096,22 @@
           "id:3": 176,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -306,
-          "y:3": -48
+          "x:3": -360,
+          "y:3": 52
         },
         "33:10": {
           "id:3": 177,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -258,
-          "y:3": -48
+          "x:3": -360,
+          "y:3": 108
         },
         "34:10": {
           "id:3": 178,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -204,
-          "y:3": 24
+          "y:3": 108
         },
         "35:10": {
           "id:3": 179,
@@ -32016,24 +34150,24 @@
         },
         "40:10": {
           "id:3": 185,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": -420,
-          "y:3": 96
+          "sizeX:3": 40,
+          "sizeY:3": 40,
+          "x:3": -608,
+          "y:3": 100
         },
         "41:10": {
           "id:3": 186,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -684,
-          "y:3": 276
+          "y:3": 280
         },
         "42:10": {
           "id:3": 188,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -600,
-          "y:3": 108
+          "y:3": 204
         },
         "43:10": {
           "id:3": 190,
@@ -32060,15 +34194,15 @@
           "id:3": 197,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -456,
+          "x:3": -360,
           "y:3": 204
         },
         "47:10": {
           "id:3": 198,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -420,
-          "y:3": 240
+          "x:3": -424,
+          "y:3": 252
         },
         "48:10": {
           "id:3": 199,
@@ -32081,8 +34215,8 @@
           "id:3": 201,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -456,
-          "y:3": 144
+          "x:3": -468,
+          "y:3": 204
         },
         "50:10": {
           "id:3": 234,
@@ -32110,42 +34244,42 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -552,
-          "y:3": 180
+          "y:3": 176
         },
         "54:10": {
           "id:3": 248,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -774,
-          "y:3": 246
+          "x:3": -792,
+          "y:3": 244
         },
         "55:10": {
           "id:3": 249,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -792,
-          "y:3": 276
+          "x:3": -828,
+          "y:3": 272
         },
         "56:10": {
           "id:3": 250,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -810,
-          "y:3": 246
+          "x:3": -828,
+          "y:3": 244
         },
         "57:10": {
           "id:3": 255,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -552,
-          "y:3": 144
+          "y:3": 204
         },
         "58:10": {
           "id:3": 261,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -288,
-          "y:3": 276
+          "y:3": 288
         },
         "59:10": {
           "id:3": 267,
@@ -32263,7 +34397,7 @@
           "id:3": 311,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -288,
+          "x:3": -324,
           "y:3": 204
         },
         "76:10": {
@@ -32271,13 +34405,13 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -324,
-          "y:3": 240
+          "y:3": 252
         },
         "77:10": {
           "id:3": 318,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -330,
+          "x:3": -424,
           "y:3": 108
         },
         "78:10": {
@@ -32285,35 +34419,35 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
-          "y:3": 132
+          "y:3": 136
         },
         "79:10": {
           "id:3": 339,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -720,
-          "y:3": 156
+          "y:3": 344
         },
         "80:10": {
           "id:3": 340,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -756,
-          "y:3": 156
+          "y:3": 344
         },
         "81:10": {
           "id:3": 341,
-          "sizeX:3": 20,
-          "sizeY:3": 20,
-          "x:3": -388,
-          "y:3": 260
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -456,
+          "y:3": 252
         },
         "82:10": {
           "id:3": 344,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -522,
-          "y:3": 168
+          "x:3": -528,
+          "y:3": 232
         },
         "83:10": {
           "id:3": 347,
@@ -32355,28 +34489,28 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -600,
-          "y:3": 240
+          "y:3": 280
         },
         "89:10": {
           "id:3": 512,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -456,
-          "y:3": 240
+          "x:3": -384,
+          "y:3": 150
         },
         "90:10": {
           "id:3": 526,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -648,
-          "y:3": 144
+          "y:3": 268
         },
         "91:10": {
           "id:3": 527,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -288,
-          "y:3": 240
+          "y:3": 252
         },
         "92:10": {
           "id:3": 532,
@@ -32389,22 +34523,22 @@
           "id:3": 542,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -492,
-          "y:3": 240
+          "x:3": -384,
+          "y:3": 180
         },
         "94:10": {
           "id:3": 549,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -528,
-          "y:3": 414
+          "x:3": -680,
+          "y:3": 420
         },
         "95:10": {
           "id:3": 551,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -504,
-          "y:3": 198
+          "x:3": -528,
+          "y:3": 296
         },
         "96:10": {
           "id:3": 555,
@@ -32417,8 +34551,8 @@
           "id:3": 580,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -468,
-          "y:3": 414
+          "x:3": -620,
+          "y:3": 420
         },
         "98:10": {
           "id:3": 611,
@@ -32508,22 +34642,22 @@
           "id:3": 690,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -420,
-          "y:3": 276
+          "x:3": -424,
+          "y:3": 344
         },
         "111:10": {
           "id:3": 693,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -492,
-          "y:3": 276
+          "x:3": -414,
+          "y:3": 180
         },
         "112:10": {
           "id:3": 694,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -528,
-          "y:3": 276
+          "x:3": -414,
+          "y:3": 150
         },
         "113:10": {
           "id:3": 732,
@@ -32537,7 +34671,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -252,
-          "y:3": 240
+          "y:3": 252
         },
         "115:10": {
           "id:3": 746,
@@ -32571,15 +34705,15 @@
           "id:3": 783,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -348,
-          "y:3": 414
+          "x:3": -500,
+          "y:3": 420
         },
         "120:10": {
           "id:3": 785,
-          "sizeX:3": 22,
-          "sizeY:3": 22,
-          "x:3": -390,
-          "y:3": 222
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -424,
+          "y:3": 224
         },
         "121:10": {
           "id:3": 798,
@@ -32593,7 +34727,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -252,
-          "y:3": 276
+          "y:3": 288
         },
         "123:10": {
           "id:3": 800,
@@ -32632,17 +34766,17 @@
         },
         "128:10": {
           "id:3": 827,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -258,
-          "y:3": -79
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": -328,
+          "y:3": 132
         },
         "129:10": {
           "id:3": 828,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -364,
-          "y:3": 236
+          "y:3": 284
         },
         "130:10": {
           "id:3": 835,
@@ -32656,35 +34790,35 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -600,
-          "y:3": 156
+          "y:3": 320
         },
         "132:10": {
           "id:3": 841,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -324,
-          "y:3": 312
+          "y:3": 344
         },
         "133:10": {
           "id:3": 849,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -360,
-          "y:3": 276
+          "x:3": -392,
+          "y:3": 344
         },
         "134:10": {
           "id:3": 850,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -364,
-          "y:3": 308
+          "y:3": 340
         },
         "135:10": {
           "id:3": 851,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -324,
-          "y:3": 276
+          "y:3": 288
         },
         "136:10": {
           "id:3": 852,
@@ -32697,22 +34831,22 @@
           "id:3": 857,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -720,
-          "y:3": 342
+          "x:3": -648,
+          "y:3": 344
         },
         "138:10": {
           "id:3": 858,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": -558,
-          "y:3": 336
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": -556,
+          "y:3": 340
         },
         "139:10": {
           "id:3": 859,
-          "sizeX:3": 72,
-          "sizeY:3": 72,
-          "x:3": -444,
-          "y:3": 318
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -496,
+          "y:3": 332
         },
         "140:10": {
           "id:3": 888,
@@ -32725,8 +34859,8 @@
           "id:3": 892,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -408,
-          "y:3": 414
+          "x:3": -560,
+          "y:3": 420
         },
         "142:10": {
           "id:3": 899,
@@ -32746,8 +34880,8 @@
           "id:3": 912,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -486,
-          "y:3": 168
+          "x:3": -528,
+          "y:3": 264
         },
         "145:10": {
           "id:3": 921,
@@ -32760,8 +34894,36 @@
           "id:3": 934,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -456,
-          "y:3": 276
+          "x:3": -444,
+          "y:3": 180
+        },
+        "147:10": {
+          "id:3": 1032,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -684,
+          "y:3": 380
+        },
+        "148:10": {
+          "id:3": 1045,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -720,
+          "y:3": 380
+        },
+        "149:10": {
+          "id:3": 1047,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -756,
+          "y:3": 380
+        },
+        "150:10": {
+          "id:3": 1053,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -360,
+          "y:3": 252
         }
       }
     },
@@ -34241,14 +36403,14 @@
           "id:3": 840,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -168,
+          "x:3": -172,
           "y:3": 0
         },
         "106:10": {
           "id:3": 841,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -168,
+          "x:3": -172,
           "y:3": -48
         },
         "107:10": {
@@ -34284,7 +36446,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
-          "y:3": 264
+          "y:3": 220
         },
         "112:10": {
           "id:3": 847,
@@ -35836,6 +37998,13 @@
           "sizeY:3": 24,
           "x:3": 72,
           "y:3": 192
+        },
+        "65:10": {
+          "id:3": 1048,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -4
         }
       }
     },
@@ -36501,13 +38670,13 @@
         "betterquesting:10": {
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "nomifactory.quest.expert.line.9.desc",
+          "desc:8": "nomifactory.quest.expert.line.10.desc",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 2,
             "id:8": "chisel:futura"
           },
-          "name:8": "nomifactory.quest.expert.line.9.title",
+          "name:8": "nomifactory.quest.expert.line.10.title",
           "visibility:8": "ALWAYS"
         }
       },
@@ -36517,7 +38686,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -100,
-          "y:3": 366
+          "y:3": 368
         },
         "1:10": {
           "id:3": 1,
@@ -36549,10 +38718,10 @@
         },
         "5:10": {
           "id:3": 64,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
+          "sizeX:3": 32,
+          "sizeY:3": 32,
           "x:3": 12,
-          "y:3": 360
+          "y:3": 364
         },
         "6:10": {
           "id:3": 73,
@@ -36664,49 +38833,49 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
-          "y:3": 312
+          "y:3": 368
         },
         "22:10": {
           "id:3": 119,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": 312
+          "x:3": 186,
+          "y:3": 368
         },
         "23:10": {
           "id:3": 120,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 48,
-          "y:3": 312
+          "x:3": 228,
+          "y:3": 368
         },
         "24:10": {
           "id:3": 122,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 228,
-          "y:3": 516
+          "x:3": 260,
+          "y:3": 480
         },
         "25:10": {
           "id:3": 123,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 228,
-          "y:3": 552
+          "x:3": 260,
+          "y:3": 516
         },
         "26:10": {
           "id:3": 124,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 228,
-          "y:3": 588
+          "x:3": 260,
+          "y:3": 552
         },
         "27:10": {
           "id:3": 132,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
-          "y:3": 312
+          "y:3": 678
         },
         "28:10": {
           "id:3": 140,
@@ -36720,7 +38889,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -48,
-          "y:3": 366
+          "y:3": 368
         },
         "30:10": {
           "id:3": 237,
@@ -36748,14 +38917,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
-          "y:3": 726
+          "y:3": 728
         },
         "34:10": {
           "id:3": 406,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
-          "y:3": 726
+          "y:3": 728
         },
         "35:10": {
           "id:3": 408,
@@ -36803,8 +38972,8 @@
           "id:3": 811,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -48,
-          "y:3": 678
+          "x:3": 4,
+          "y:3": 652
         },
         "42:10": {
           "id:3": 829,
@@ -36832,14 +39001,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -48,
-          "y:3": 312
+          "y:3": 678
         },
         "46:10": {
           "id:3": 918,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 0,
-          "y:3": 312
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": -52,
+          "y:3": 724
         },
         "47:10": {
           "id:3": 924,
@@ -36867,7 +39036,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 186,
-          "y:3": 726
+          "y:3": 728
         },
         "51:10": {
           "id:3": 1032,
@@ -36875,13 +39044,6 @@
           "sizeY:3": 24,
           "x:3": 186,
           "y:3": 630
-        },
-        "52:10": {
-          "id:3": 1033,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 186,
-          "y:3": 438
         }
       }
     }

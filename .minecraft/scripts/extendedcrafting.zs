@@ -6,7 +6,7 @@ import scripts.common.makeExtremeRecipe5 as makeExtremeRecipe5;
 import scripts.common.makeExtremeRecipe7 as makeExtremeRecipe7;
 import scripts.common.makeExtremeRecipe9 as makeExtremeRecipe9;
 
-val creativecell = <thermalexpansion:cell>.withTag({Recv: 250000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 500000000, Creative: 1 as byte, SideCache: [2, 2, 2, 2, 2, 2] as byte[] as byte[], Level: 4 as byte, Send: 250000}, false);
+val creativecell = <thermalexpansion:cell>.withTag({Creative: 1 as byte, Level: 4 as byte}, false);
 val creativetank = <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 1 as byte, Level: 4 as byte}, false);
 val creativejetpack = <simplyjetpacks:itemjetpack>.withTag({JetpackParticleType: 3}, false);
 
@@ -236,14 +236,6 @@ makeExtremeRecipe7(<extendedcrafting:table_ultimate>,
       E : <minecraft:emerald_block>,
       T : <extendedcrafting:table_elite> });
 
-implosion.recipeBuilder()
-    .inputs([<extendedcrafting:singularity_ultimate>])
-    .property("explosives", 1)
-    .outputs(<extendedcrafting:material:33>)
-    .duration(20).EUt(30).buildAndRegister();
-
-
-
 recipes.remove(<minecraft:end_crystal>);
 // End Crystal * 1
 <recipemap:assembler>.findRecipe(16, [<minecraft:ghast_tear:0>, <minecraft:ender_eye:0>], [<liquid:glass> * 1008]).remove();
@@ -453,7 +445,6 @@ makeExtremeRecipe9(<nomilabs:eternalcatalyst>,
       J : <moreplates:empowered_palis_gear>,
       K : <moreplates:empowered_restonia_gear>,
       L : <moreplates:empowered_void_gear> });
-<nomilabs:eternalcatalyst>.addTooltip(format.darkGray(format.italic("Gaze into the Abyss...")));
 
 
 ////////////////////////// Infinity Ingot ///////////////////////
@@ -522,8 +513,6 @@ mods.extendedcrafting.TableCrafting.addShapeless(<nomilabs:ultimate_gem>,
      <redstonearsenal:material:160>,
      <minecraft:diamond>,
      <thermalfoundation:material:895>]);
-<nomilabs:ultimate_gem>.addTooltip(format.yellow("Recipe is shapeless."));
-
 
 
 
@@ -869,7 +858,6 @@ mods.extendedcrafting.TableCrafting.addShapeless(<nomilabs:ultimate_generator>,
 <meta_tile_entity:large_turbine.steam>, <meta_tile_entity:steam_turbine.lv>, xu13, xu12, xu11, xu10, xu09, <meta_tile_entity:gas_turbine.hv>, <meta_tile_entity:large_turbine.plasma>,
 <solarflux:solar_panel_1>, <solarflux:solar_panel_4>, <meta_tile_entity:steam_turbine.mv>, <meta_tile_entity:steam_turbine.hv>, <meta_tile_entity:large_turbine.gas>, <meta_tile_entity:gas_turbine.lv>, <meta_tile_entity:gas_turbine.mv>, <solarflux:solar_panel_chaotic>, <solarflux:solar_panel_draconic>,
 <solarflux:solar_panel_2>, <solarflux:solar_panel_3>, <solarflux:solar_panel_5>, <solarflux:solar_panel_6>, <extrautils2:passivegenerator>, <solarflux:solar_panel_7>, <solarflux:solar_panel_8>, <solarflux:solar_panel_wyvern>, <solarflux:solar_panel_neutronium>]);
-<nomilabs:ultimate_generator>.addTooltip(format.yellow("Recipe is shapeless."));
 
 
 //Ultimate Power Storage

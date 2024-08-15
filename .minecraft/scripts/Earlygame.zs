@@ -307,15 +307,6 @@ electrolyzer.recipeBuilder()
 	.fluidOutputs(<liquid:chlorine> * 2000, <liquid:hydrogen> * 4000)
 	.duration(576).EUt(60).buildAndRegister();
 
-
-
-//Omnium
-implosion_compressor.recipeBuilder()
-	.inputs([<extendedcrafting:singularity_ultimate>])
-	.outputs(<extendedcrafting:material:33>)
-	.property("explosives", <metaitem:dynamite> * 8)
-	.duration(20).EUt(30).buildAndRegister();
-
 //Add Decomposition Recipe for Polyphenylene Sulfide
 electrolyzer.recipeBuilder()
 	.fluidInputs(<liquid:polyphenylene_sulfide> * 11000)
@@ -395,18 +386,3 @@ macerator.recipeBuilder()
     .duration(236)
     .EUt(8)
     .buildAndRegister();*/
-
-// Tooltips
-
-// Not needed because of better tooltips.
-//<gregtech:meta_tool:3>.addTooltip(format.yellow("All GT Axes have Lumberaxe Functionality"));
-
-<thermalexpansion:capacitor>.addTooltip(format.red("Cannot be discharged in GT Battery Buffers"));
-<thermalexpansion:capacitor:1>.addTooltip(format.red("Cannot be discharged in GT Battery Buffers"));
-<thermalexpansion:capacitor:2>.addTooltip(format.red("Cannot be discharged in GT Battery Buffers"));
-<thermalexpansion:capacitor:3>.addTooltip(format.red("Cannot be discharged in GT Battery Buffers"));
-<thermalexpansion:capacitor:4>.addTooltip(format.red("Cannot be discharged in GT Battery Buffers"));
-<thermalexpansion:capacitor:5>.addTooltip(format.red("Cannot be discharged in GT Battery Buffers"));
-<gregtech:meta_item_1:466>.addTooltip(format.yellow("Grid squares correspond to 1 chunk, up is north\nClick a resource name in sidebar to highlight only it\nUse JEI to check potential vein depth"));
-<gregtech:meta_item_1:467>.addTooltip(format.yellow("Grid squares correspond to 1 chunk, up is north\nClick a resource name in sidebar to highlight only it\nUse JEI to check potential vein depth"));
-<gregtech:meta_item_1:468>.addTooltip(format.yellow("Grid squares correspond to 1 chunk, up is north\nClick a resource name in sidebar to highlight only it\nUse JEI to check potential vein depth"));
