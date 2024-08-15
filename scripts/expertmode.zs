@@ -58,7 +58,7 @@ alloy.recipeBuilder()
 recipes.removeByRecipeName("enderio:reservoir");
 assembler.recipeBuilder()
 	.inputs([<ore:blockGlassHardened> * 18, <metaitem:nomilabs:plateDoubleEnergeticAlloy> * 3, <minecraft:cauldron>])
-	.outputs(<enderio:block_reservoir> * 3)
+	.outputs(<enderio:block_reservoir> * 4)
 	.duration(100)
 	.EUt(30)
 	.buildAndRegister();
@@ -289,35 +289,7 @@ recipes.addShaped(<metaitem:maintenance_hatch_full_auto>, [
     [<ore:circuitIv>, <metaitem:maintenance_hatch>, <ore:circuitIv>]
 ]);
 
-// Fluid Storage
-recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_components_cell_1k_part");
-recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_components_cell_4k_part");
-recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_components_cell_16k_part");
-recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_components_cell_64k_part");
-
-assembler.recipeBuilder()
-    .inputs(<metaitem:gemExquisiteLapis> * 2, <ore:crystalPureCertusQuartz> * 4, <appliedenergistics2:material:22>, <ore:circuitEv> * 2)
-    .outputs(<appliedenergistics2:material:54>)
-    .duration(100).EUt(960)
-    .buildAndRegister();
-
-assembler.recipeBuilder()
-    .inputs(<metaitem:gemExquisiteLapis> * 2, <ore:crystalPureCertusQuartz> * 4, <appliedenergistics2:material:23>, <appliedenergistics2:material:54> * 3)
-    .outputs(<appliedenergistics2:material:55>)
-    .duration(100).EUt(960)
-    .buildAndRegister();
-
-assembler.recipeBuilder()
-    .inputs(<metaitem:gemExquisiteLapis> * 2, <ore:crystalPureCertusQuartz> * 4, <appliedenergistics2:material:23>, <appliedenergistics2:material:55> * 3)
-    .outputs(<appliedenergistics2:material:56>)
-    .duration(100).EUt(960)
-    .buildAndRegister();
-
-assembler.recipeBuilder()
-    .inputs(<metaitem:gemExquisiteLapis> * 2, <ore:crystalPureCertusQuartz> * 4, <appliedenergistics2:material:23>, <appliedenergistics2:material:56> * 3)
-    .outputs(<appliedenergistics2:material:57>)
-    .duration(100).EUt(960)
-    .buildAndRegister();
+// Fluid Storage (Moved to Groovy)
 
 // Small Storage Crates
 recipes.removeByRecipeName("actuallyadditions:recipes162");
@@ -490,16 +462,6 @@ brewery.recipeBuilder()
 	.property("cleanroom", "sterile_cleanroom")
     .duration(128).EUt(4).buildAndRegister();
 
-// Taranium in UV Fieldgen
-// UV Field Generator * 1
-<recipemap:assembly_line>.findRecipe(100000, [<metaitem:frameTritanium>, <metaitem:plateTritanium> * 6, <metaitem:gravistar>, <metaitem:emitter.uv> * 2, <metaitem:circuit.crystal_mainframe> * 2, <metaitem:wireFineEnrichedNaquadahTriniumEuropiumDuranide> * 64, <metaitem:wireFineEnrichedNaquadahTriniumEuropiumDuranide> * 64, <metaitem:cableGtSingleYttriumBariumCuprate> * 4], [<liquid:soldering_alloy> * 1728, <liquid:naquadria> * 576]).remove();
-
-assembly_line.recipeBuilder()
-    .inputs(<metaitem:frameTritanium>, <metaitem:plateTritanium> * 6, <metaitem:gravistar>, <metaitem:emitter.uv> * 2, <ore:circuitUv> * 2, <metaitem:wireFineEnrichedNaquadahTriniumEuropiumDuranide> * 64, <metaitem:wireFineEnrichedNaquadahTriniumEuropiumDuranide> * 64, <metaitem:cableGtSingleYttriumBariumCuprate> * 4)
-    .fluidInputs(<liquid:soldering_alloy> * 1728, <liquid:naquadria> * 576, <liquid:taranium> * 288)
-    .outputs(<metaitem:field.generator.uv>)
-    .duration(600).EUt(100000).buildAndRegister();
-
 // Parallel Hatches
 recipes.removeByRecipeName("gcym:parallel_hatch_iv");
 recipes.removeByRecipeName("gcym:parallel_hatch_luv");
@@ -545,12 +507,6 @@ val dml as IMod = loadedMods["deepmoblearning"];
 
 if(!isNull(dml)) {
     val dmlItems as IItemStack[] = dml.items;
-	
-	mods.jei.JEI.hideCategory("deepmoblearning.simulation_chamber");
-	mods.jei.JEI.hideCategory("deepmoblearning.extraction_chamber");
-    
-    // No JEI recipes for Trial Keystones yet
-	// mods.jei.JEI.hideCategory("deepmoblearning.trial_keystone");
 
 	//remove everything
     for item in dmlItems {
